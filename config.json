@@ -12,9 +12,21 @@
             "module":"NN"
         },
         {
+            "name": "192.168.100.6-datanode",
+            "url": "http://192.168.100.6:9864/jmx",
+            "module":"DN"
+        },
+        {
             "name": "192.168.100.6-hmaster",
             "url": "http://192.168.100.6:16010/jmx",
             "module":"HM"
+        },
+        {
+            "name": "192.168.100.6-regionserver",
+            "url": "http://192.168.100.6:16030/jmx",
+            "module":"RS"
         }
+
+        
     ]
 }

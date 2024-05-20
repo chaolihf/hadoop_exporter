@@ -37,7 +37,7 @@ type TargetServer struct {
 var logger *zap.Logger
 var client *resty.Client
 
-type beanHandler func(beanInfo *jjson.JsonObject, keySet map[string][]string, modulePrefix string) []prometheus.Metric
+type beanHandler func(beanInfo *jjson.JsonObject, keySet map[string][]string, modulePrefix string, isShowAll bool) []prometheus.Metric
 
 var handlerMap map[string]beanHandler
 var exporterInfo ExporterConfig
@@ -45,6 +45,7 @@ var exporterInfo ExporterConfig
 type hadoopCollector struct {
 	remoteUrl    string
 	modulePrefix string
+	showAll      bool
 }
 
 func (collector *hadoopCollector) Describe(ch chan<- *prometheus.Desc) {
@@ -52,13 +53,13 @@ func (collector *hadoopCollector) Describe(ch chan<- *prometheus.Desc) {
 }
 
 func (collector *hadoopCollector) Collect(ch chan<- prometheus.Metric) {
-	metrics := getJmxInfo(collector.remoteUrl, collector.modulePrefix)
+	metrics := getJmxInfo(collector.remoteUrl, collector.modulePrefix, collector.showAll)
 	for _, metric := range metrics {
 		ch <- metric
 	}
 }
 
-func getJmxInfo(url string, modulePrefix string) []prometheus.Metric {
+func getJmxInfo(url string, modulePrefix string, isShowAll bool) []prometheus.Metric {
 	var metrics []prometheus.Metric
 	logger.Info(fmt.Sprintf("get url %s", url))
 	resp, err := client.R().EnableTrace().Get(url)
@@ -75,7 +76,7 @@ func getJmxInfo(url string, modulePrefix string) []prometheus.Metric {
 			if handler == nil {
 				handler = getBeanMetrics
 			}
-			metrics = append(metrics, handler(beanInfo, keySet, modulePrefix)...)
+			metrics = append(metrics, handler(beanInfo, keySet, modulePrefix, isShowAll)...)
 		}
 	}
 	return metrics
@@ -152,7 +153,12 @@ func main() {
 			}
 			module = defaultModule
 		}
-		registry.MustRegister(&hadoopCollector{remoteUrl: targetUrl, modulePrefix: module})
+		showAllParam := params.Get("showall")
+		var isShowAll bool = false
+		if showAllParam == "1" {
+			isShowAll = true
+		}
+		registry.MustRegister(&hadoopCollector{remoteUrl: targetUrl, modulePrefix: module, showAll: isShowAll})
 
 		// probeSuccessGauge := prometheus.NewGauge(prometheus.GaugeOpts{
 		// 	Name: "probe_success",
@@ -173,7 +179,7 @@ func registerNameHandler(name string, handler beanHandler) {
 	handlerMap[name] = handler
 }
 
-func getBeanMetrics(beanInfo *jjson.JsonObject, keySet map[string][]string, modulePrefix string) []prometheus.Metric {
+func getBeanMetrics(beanInfo *jjson.JsonObject, keySet map[string][]string, modulePrefix string, isShowAll bool) []prometheus.Metric {
 	var metrics []prometheus.Metric
 	var tags = make(map[string]string)
 	metrixPerfix := getNameLabelInfo(beanInfo, tags, modulePrefix)
@@ -181,7 +187,7 @@ func getBeanMetrics(beanInfo *jjson.JsonObject, keySet map[string][]string, modu
 	for _, key := range beanInfo.GetKeys() {
 		if key != "name" && key != "modelerType" && !strings.HasPrefix(key, "tag.") {
 			metricName := renameMetricName(keySet, metrixPerfix+"_"+key, tagString)
-			if isInExportList(metricName) {
+			if isShowAll || isInExportList(metricName) {
 				value := getAttributeValue(beanInfo.Attributes[key])
 				hadoopMetric := prometheus.NewDesc(metricName, metricName, nil, tags)
 				metric := prometheus.MustNewConstMetric(hadoopMetric, prometheus.CounterValue, value)
@@ -195,7 +201,7 @@ func getBeanMetrics(beanInfo *jjson.JsonObject, keySet map[string][]string, modu
 // @title handler for hbase region server
 //因为存在指标名称小写一样的问题，对于小写一样但指标名称不一样的进行编号；key为指标名称的小写，
 
-func handlerRegionServerRegions(beanInfo *jjson.JsonObject, keySet map[string][]string, modulePrefix string) []prometheus.Metric {
+func handlerRegionServerRegions(beanInfo *jjson.JsonObject, keySet map[string][]string, modulePrefix string, isShowAll bool) []prometheus.Metric {
 	var metrics []prometheus.Metric
 	var tags = make(map[string]string)
 	metrixPerfix := getNameLabelInfo(beanInfo, tags, modulePrefix)
@@ -220,7 +226,7 @@ func handlerRegionServerRegions(beanInfo *jjson.JsonObject, keySet map[string][]
 					}
 				}
 				metricName := renameMetricName(keySet, metrixPerfix+"_"+key[metricIndex+8:], metriTag)
-				if isInExportList(metricName) {
+				if isShowAll || isInExportList(metricName) {
 					value := getAttributeValue(beanInfo.Attributes[key])
 					hadoopMetric := prometheus.NewDesc(metricName, metricName, nil, tags)
 					metric := prometheus.MustNewConstMetric(hadoopMetric, prometheus.CounterValue, value)
