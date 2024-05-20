@@ -1,0 +1,633 @@
+# HELP Hadoop_DataNode_ActiveTransferThreadCount Hadoop_DataNode_ActiveTransferThreadCount
+# TYPE Hadoop_DataNode_ActiveTransferThreadCount counter
+Hadoop_DataNode_ActiveTransferThreadCount 6
+# HELP Hadoop_DataNode_BPServiceActorInfo Hadoop_DataNode_BPServiceActorInfo
+# TYPE Hadoop_DataNode_BPServiceActorInfo counter
+Hadoop_DataNode_BPServiceActorInfo 0
+# HELP Hadoop_DataNode_BlockChecksumOpAvgTime Hadoop_DataNode_BlockChecksumOpAvgTime
+# TYPE Hadoop_DataNode_BlockChecksumOpAvgTime counter
+Hadoop_DataNode_BlockChecksumOpAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_BlockChecksumOpNumOps Hadoop_DataNode_BlockChecksumOpNumOps
+# TYPE Hadoop_DataNode_BlockChecksumOpNumOps counter
+Hadoop_DataNode_BlockChecksumOpNumOps{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_BlockReportsAvgTime Hadoop_DataNode_BlockReportsAvgTime
+# TYPE Hadoop_DataNode_BlockReportsAvgTime counter
+Hadoop_DataNode_BlockReportsAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 2
+# HELP Hadoop_DataNode_BlockReportsNumOps Hadoop_DataNode_BlockReportsNumOps
+# TYPE Hadoop_DataNode_BlockReportsNumOps counter
+Hadoop_DataNode_BlockReportsNumOps{Context="dfs",Hostname="localhost",SessionId=""} 249
+# HELP Hadoop_DataNode_BlockVerificationFailures Hadoop_DataNode_BlockVerificationFailures
+# TYPE Hadoop_DataNode_BlockVerificationFailures counter
+Hadoop_DataNode_BlockVerificationFailures{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_BlocksCached Hadoop_DataNode_BlocksCached
+# TYPE Hadoop_DataNode_BlocksCached counter
+Hadoop_DataNode_BlocksCached{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_BlocksDeletedInPendingIBR Hadoop_DataNode_BlocksDeletedInPendingIBR
+# TYPE Hadoop_DataNode_BlocksDeletedInPendingIBR counter
+Hadoop_DataNode_BlocksDeletedInPendingIBR{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_BlocksGetLocalPathInfo Hadoop_DataNode_BlocksGetLocalPathInfo
+# TYPE Hadoop_DataNode_BlocksGetLocalPathInfo counter
+Hadoop_DataNode_BlocksGetLocalPathInfo{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_BlocksInPendingIBR Hadoop_DataNode_BlocksInPendingIBR
+# TYPE Hadoop_DataNode_BlocksInPendingIBR counter
+Hadoop_DataNode_BlocksInPendingIBR{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_BlocksRead Hadoop_DataNode_BlocksRead
+# TYPE Hadoop_DataNode_BlocksRead counter
+Hadoop_DataNode_BlocksRead{Context="dfs",Hostname="localhost",SessionId=""} 5549
+# HELP Hadoop_DataNode_BlocksReceivedInPendingIBR Hadoop_DataNode_BlocksReceivedInPendingIBR
+# TYPE Hadoop_DataNode_BlocksReceivedInPendingIBR counter
+Hadoop_DataNode_BlocksReceivedInPendingIBR{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_BlocksReceivingInPendingIBR Hadoop_DataNode_BlocksReceivingInPendingIBR
+# TYPE Hadoop_DataNode_BlocksReceivingInPendingIBR counter
+Hadoop_DataNode_BlocksReceivingInPendingIBR{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_BlocksRemoved Hadoop_DataNode_BlocksRemoved
+# TYPE Hadoop_DataNode_BlocksRemoved counter
+Hadoop_DataNode_BlocksRemoved{Context="dfs",Hostname="localhost",SessionId=""} 9790
+# HELP Hadoop_DataNode_BlocksReplicated Hadoop_DataNode_BlocksReplicated
+# TYPE Hadoop_DataNode_BlocksReplicated counter
+Hadoop_DataNode_BlocksReplicated{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_BlocksUncached Hadoop_DataNode_BlocksUncached
+# TYPE Hadoop_DataNode_BlocksUncached counter
+Hadoop_DataNode_BlocksUncached{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_BlocksVerified Hadoop_DataNode_BlocksVerified
+# TYPE Hadoop_DataNode_BlocksVerified counter
+Hadoop_DataNode_BlocksVerified{Context="dfs",Hostname="localhost",SessionId=""} 3908
+# HELP Hadoop_DataNode_BlocksWritten Hadoop_DataNode_BlocksWritten
+# TYPE Hadoop_DataNode_BlocksWritten counter
+Hadoop_DataNode_BlocksWritten{Context="dfs",Hostname="localhost",SessionId=""} 9808
+# HELP Hadoop_DataNode_BytesRead Hadoop_DataNode_BytesRead
+# TYPE Hadoop_DataNode_BytesRead counter
+Hadoop_DataNode_BytesRead{Context="dfs",Hostname="localhost",SessionId=""} 3.3471783e+07
+# HELP Hadoop_DataNode_BytesWritten Hadoop_DataNode_BytesWritten
+# TYPE Hadoop_DataNode_BytesWritten counter
+Hadoop_DataNode_BytesWritten{Context="dfs",Hostname="localhost",SessionId=""} 3.129778e+07
+# HELP Hadoop_DataNode_CacheCapacity Hadoop_DataNode_CacheCapacity
+# TYPE Hadoop_DataNode_CacheCapacity counter
+Hadoop_DataNode_CacheCapacity{Context="FSDatasetState",Hostname="localhost",StorageInfo="FSDataset{dirpath='[/home/hadoop/hadoop-3.3.2/data/data]'}"} 0
+# HELP Hadoop_DataNode_CacheCapacity0 Hadoop_DataNode_CacheCapacity0
+# TYPE Hadoop_DataNode_CacheCapacity0 counter
+Hadoop_DataNode_CacheCapacity0 0
+# HELP Hadoop_DataNode_CacheReportsAvgTime Hadoop_DataNode_CacheReportsAvgTime
+# TYPE Hadoop_DataNode_CacheReportsAvgTime counter
+Hadoop_DataNode_CacheReportsAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_CacheReportsNumOps Hadoop_DataNode_CacheReportsNumOps
+# TYPE Hadoop_DataNode_CacheReportsNumOps counter
+Hadoop_DataNode_CacheReportsNumOps{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_CacheUsed Hadoop_DataNode_CacheUsed
+# TYPE Hadoop_DataNode_CacheUsed counter
+Hadoop_DataNode_CacheUsed{Context="FSDatasetState",Hostname="localhost",StorageInfo="FSDataset{dirpath='[/home/hadoop/hadoop-3.3.2/data/data]'}"} 0
+# HELP Hadoop_DataNode_CacheUsed0 Hadoop_DataNode_CacheUsed0
+# TYPE Hadoop_DataNode_CacheUsed0 counter
+Hadoop_DataNode_CacheUsed0 0
+# HELP Hadoop_DataNode_CallQueueLength Hadoop_DataNode_CallQueueLength
+# TYPE Hadoop_DataNode_CallQueueLength counter
+Hadoop_DataNode_CallQueueLength{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_Capacity Hadoop_DataNode_Capacity
+# TYPE Hadoop_DataNode_Capacity counter
+Hadoop_DataNode_Capacity{Context="FSDatasetState",Hostname="localhost",StorageInfo="FSDataset{dirpath='[/home/hadoop/hadoop-3.3.2/data/data]'}"} 0
+# HELP Hadoop_DataNode_Capacity0 Hadoop_DataNode_Capacity0
+# TYPE Hadoop_DataNode_Capacity0 counter
+Hadoop_DataNode_Capacity0 0
+# HELP Hadoop_DataNode_ClusterId Hadoop_DataNode_ClusterId
+# TYPE Hadoop_DataNode_ClusterId counter
+Hadoop_DataNode_ClusterId 0
+# HELP Hadoop_DataNode_CopyBlockOpAvgTime Hadoop_DataNode_CopyBlockOpAvgTime
+# TYPE Hadoop_DataNode_CopyBlockOpAvgTime counter
+Hadoop_DataNode_CopyBlockOpAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_CopyBlockOpNumOps Hadoop_DataNode_CopyBlockOpNumOps
+# TYPE Hadoop_DataNode_CopyBlockOpNumOps counter
+Hadoop_DataNode_CopyBlockOpNumOps{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_DNStartedTimeInMillis Hadoop_DataNode_DNStartedTimeInMillis
+# TYPE Hadoop_DataNode_DNStartedTimeInMillis counter
+Hadoop_DataNode_DNStartedTimeInMillis 0
+# HELP Hadoop_DataNode_DataFileIoRateAvgTime Hadoop_DataNode_DataFileIoRateAvgTime
+# TYPE Hadoop_DataNode_DataFileIoRateAvgTime counter
+Hadoop_DataNode_DataFileIoRateAvgTime{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_DataFileIoRateNumOps Hadoop_DataNode_DataFileIoRateNumOps
+# TYPE Hadoop_DataNode_DataFileIoRateNumOps counter
+Hadoop_DataNode_DataFileIoRateNumOps{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_DataNodeActiveXceiversCount Hadoop_DataNode_DataNodeActiveXceiversCount
+# TYPE Hadoop_DataNode_DataNodeActiveXceiversCount counter
+Hadoop_DataNode_DataNodeActiveXceiversCount{Context="dfs",Hostname="localhost",SessionId=""} 3
+# HELP Hadoop_DataNode_DataNodeBlockRecoveryWorkerCount Hadoop_DataNode_DataNodeBlockRecoveryWorkerCount
+# TYPE Hadoop_DataNode_DataNodeBlockRecoveryWorkerCount counter
+Hadoop_DataNode_DataNodeBlockRecoveryWorkerCount{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_DataNodePacketResponderCount Hadoop_DataNode_DataNodePacketResponderCount
+# TYPE Hadoop_DataNode_DataNodePacketResponderCount counter
+Hadoop_DataNode_DataNodePacketResponderCount{Context="dfs",Hostname="localhost",SessionId=""} 3
+# HELP Hadoop_DataNode_DataPort Hadoop_DataNode_DataPort
+# TYPE Hadoop_DataNode_DataPort counter
+Hadoop_DataNode_DataPort 0
+# HELP Hadoop_DataNode_DatanodeHostname Hadoop_DataNode_DatanodeHostname
+# TYPE Hadoop_DataNode_DatanodeHostname counter
+Hadoop_DataNode_DatanodeHostname 0
+# HELP Hadoop_DataNode_DatanodeNetworkCounts Hadoop_DataNode_DatanodeNetworkCounts
+# TYPE Hadoop_DataNode_DatanodeNetworkCounts counter
+Hadoop_DataNode_DatanodeNetworkCounts 0
+# HELP Hadoop_DataNode_DatanodeNetworkErrors Hadoop_DataNode_DatanodeNetworkErrors
+# TYPE Hadoop_DataNode_DatanodeNetworkErrors counter
+Hadoop_DataNode_DatanodeNetworkErrors{Context="dfs",Hostname="localhost",SessionId=""} 9
+# HELP Hadoop_DataNode_DeferredRpcProcessingTimeAvgTime Hadoop_DataNode_DeferredRpcProcessingTimeAvgTime
+# TYPE Hadoop_DataNode_DeferredRpcProcessingTimeAvgTime counter
+Hadoop_DataNode_DeferredRpcProcessingTimeAvgTime{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_DeferredRpcProcessingTimeNumOps Hadoop_DataNode_DeferredRpcProcessingTimeNumOps
+# TYPE Hadoop_DataNode_DeferredRpcProcessingTimeNumOps counter
+Hadoop_DataNode_DeferredRpcProcessingTimeNumOps{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_DfsUsed Hadoop_DataNode_DfsUsed
+# TYPE Hadoop_DataNode_DfsUsed counter
+Hadoop_DataNode_DfsUsed{Context="FSDatasetState",Hostname="localhost",StorageInfo="FSDataset{dirpath='[/home/hadoop/hadoop-3.3.2/data/data]'}"} 1.2652544e+07
+# HELP Hadoop_DataNode_DfsUsed0 Hadoop_DataNode_DfsUsed0
+# TYPE Hadoop_DataNode_DfsUsed0 counter
+Hadoop_DataNode_DfsUsed0 1.2652544e+07
+# HELP Hadoop_DataNode_DiskBalancerStatus Hadoop_DataNode_DiskBalancerStatus
+# TYPE Hadoop_DataNode_DiskBalancerStatus counter
+Hadoop_DataNode_DiskBalancerStatus 0
+# HELP Hadoop_DataNode_DroppedPubAll Hadoop_DataNode_DroppedPubAll
+# TYPE Hadoop_DataNode_DroppedPubAll counter
+Hadoop_DataNode_DroppedPubAll{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_DataNode_EcDecodingTimeNanos Hadoop_DataNode_EcDecodingTimeNanos
+# TYPE Hadoop_DataNode_EcDecodingTimeNanos counter
+Hadoop_DataNode_EcDecodingTimeNanos{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_EcFailedReconstructionTasks Hadoop_DataNode_EcFailedReconstructionTasks
+# TYPE Hadoop_DataNode_EcFailedReconstructionTasks counter
+Hadoop_DataNode_EcFailedReconstructionTasks{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_EcInvalidReconstructionTasks Hadoop_DataNode_EcInvalidReconstructionTasks
+# TYPE Hadoop_DataNode_EcInvalidReconstructionTasks counter
+Hadoop_DataNode_EcInvalidReconstructionTasks{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_EcReconstructionBytesRead Hadoop_DataNode_EcReconstructionBytesRead
+# TYPE Hadoop_DataNode_EcReconstructionBytesRead counter
+Hadoop_DataNode_EcReconstructionBytesRead{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_EcReconstructionBytesWritten Hadoop_DataNode_EcReconstructionBytesWritten
+# TYPE Hadoop_DataNode_EcReconstructionBytesWritten counter
+Hadoop_DataNode_EcReconstructionBytesWritten{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_EcReconstructionDecodingTimeMillis Hadoop_DataNode_EcReconstructionDecodingTimeMillis
+# TYPE Hadoop_DataNode_EcReconstructionDecodingTimeMillis counter
+Hadoop_DataNode_EcReconstructionDecodingTimeMillis{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_EcReconstructionReadTimeMillis Hadoop_DataNode_EcReconstructionReadTimeMillis
+# TYPE Hadoop_DataNode_EcReconstructionReadTimeMillis counter
+Hadoop_DataNode_EcReconstructionReadTimeMillis{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_EcReconstructionRemoteBytesRead Hadoop_DataNode_EcReconstructionRemoteBytesRead
+# TYPE Hadoop_DataNode_EcReconstructionRemoteBytesRead counter
+Hadoop_DataNode_EcReconstructionRemoteBytesRead{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_EcReconstructionTasks Hadoop_DataNode_EcReconstructionTasks
+# TYPE Hadoop_DataNode_EcReconstructionTasks counter
+Hadoop_DataNode_EcReconstructionTasks{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_EcReconstructionValidateTimeMillis Hadoop_DataNode_EcReconstructionValidateTimeMillis
+# TYPE Hadoop_DataNode_EcReconstructionValidateTimeMillis counter
+Hadoop_DataNode_EcReconstructionValidateTimeMillis{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_EcReconstructionWriteTimeMillis Hadoop_DataNode_EcReconstructionWriteTimeMillis
+# TYPE Hadoop_DataNode_EcReconstructionWriteTimeMillis counter
+Hadoop_DataNode_EcReconstructionWriteTimeMillis{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_EstimatedCapacityLostTotal Hadoop_DataNode_EstimatedCapacityLostTotal
+# TYPE Hadoop_DataNode_EstimatedCapacityLostTotal counter
+Hadoop_DataNode_EstimatedCapacityLostTotal{Context="FSDatasetState",Hostname="localhost",StorageInfo="FSDataset{dirpath='[/home/hadoop/hadoop-3.3.2/data/data]'}"} 0
+# HELP Hadoop_DataNode_EstimatedCapacityLostTotal0 Hadoop_DataNode_EstimatedCapacityLostTotal0
+# TYPE Hadoop_DataNode_EstimatedCapacityLostTotal0 counter
+Hadoop_DataNode_EstimatedCapacityLostTotal0 0
+# HELP Hadoop_DataNode_FailedStorageLocations Hadoop_DataNode_FailedStorageLocations
+# TYPE Hadoop_DataNode_FailedStorageLocations counter
+Hadoop_DataNode_FailedStorageLocations 0
+# HELP Hadoop_DataNode_FileIoErrorRateAvgTime Hadoop_DataNode_FileIoErrorRateAvgTime
+# TYPE Hadoop_DataNode_FileIoErrorRateAvgTime counter
+Hadoop_DataNode_FileIoErrorRateAvgTime{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_FileIoErrorRateNumOps Hadoop_DataNode_FileIoErrorRateNumOps
+# TYPE Hadoop_DataNode_FileIoErrorRateNumOps counter
+Hadoop_DataNode_FileIoErrorRateNumOps{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_FlushIoRateAvgTime Hadoop_DataNode_FlushIoRateAvgTime
+# TYPE Hadoop_DataNode_FlushIoRateAvgTime counter
+Hadoop_DataNode_FlushIoRateAvgTime{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_FlushIoRateNumOps Hadoop_DataNode_FlushIoRateNumOps
+# TYPE Hadoop_DataNode_FlushIoRateNumOps counter
+Hadoop_DataNode_FlushIoRateNumOps{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_FlushNanosAvgTime Hadoop_DataNode_FlushNanosAvgTime
+# TYPE Hadoop_DataNode_FlushNanosAvgTime counter
+Hadoop_DataNode_FlushNanosAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 4835.333333333333
+# HELP Hadoop_DataNode_FlushNanosNumOps Hadoop_DataNode_FlushNanosNumOps
+# TYPE Hadoop_DataNode_FlushNanosNumOps counter
+Hadoop_DataNode_FlushNanosNumOps{Context="dfs",Hostname="localhost",SessionId=""} 54164
+# HELP Hadoop_DataNode_FsyncCount Hadoop_DataNode_FsyncCount
+# TYPE Hadoop_DataNode_FsyncCount counter
+Hadoop_DataNode_FsyncCount{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_FsyncNanosAvgTime Hadoop_DataNode_FsyncNanosAvgTime
+# TYPE Hadoop_DataNode_FsyncNanosAvgTime counter
+Hadoop_DataNode_FsyncNanosAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_FsyncNanosNumOps Hadoop_DataNode_FsyncNanosNumOps
+# TYPE Hadoop_DataNode_FsyncNanosNumOps counter
+Hadoop_DataNode_FsyncNanosNumOps{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_GcCount Hadoop_DataNode_GcCount
+# TYPE Hadoop_DataNode_GcCount counter
+Hadoop_DataNode_GcCount{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 475
+# HELP Hadoop_DataNode_GcNumInfoThresholdExceeded Hadoop_DataNode_GcNumInfoThresholdExceeded
+# TYPE Hadoop_DataNode_GcNumInfoThresholdExceeded counter
+Hadoop_DataNode_GcNumInfoThresholdExceeded{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 0
+# HELP Hadoop_DataNode_GcNumWarnThresholdExceeded Hadoop_DataNode_GcNumWarnThresholdExceeded
+# TYPE Hadoop_DataNode_GcNumWarnThresholdExceeded counter
+Hadoop_DataNode_GcNumWarnThresholdExceeded{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 0
+# HELP Hadoop_DataNode_GcTimeMillis Hadoop_DataNode_GcTimeMillis
+# TYPE Hadoop_DataNode_GcTimeMillis counter
+Hadoop_DataNode_GcTimeMillis{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 1383
+# HELP Hadoop_DataNode_GcTotalExtraSleepTime Hadoop_DataNode_GcTotalExtraSleepTime
+# TYPE Hadoop_DataNode_GcTotalExtraSleepTime counter
+Hadoop_DataNode_GcTotalExtraSleepTime{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 1833
+# HELP Hadoop_DataNode_GetGroupsAvgTime Hadoop_DataNode_GetGroupsAvgTime
+# TYPE Hadoop_DataNode_GetGroupsAvgTime counter
+Hadoop_DataNode_GetGroupsAvgTime{Context="ugi",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_GetGroupsNumOps Hadoop_DataNode_GetGroupsNumOps
+# TYPE Hadoop_DataNode_GetGroupsNumOps counter
+Hadoop_DataNode_GetGroupsNumOps{Context="ugi",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_HeartbeatsAvgTime Hadoop_DataNode_HeartbeatsAvgTime
+# TYPE Hadoop_DataNode_HeartbeatsAvgTime counter
+Hadoop_DataNode_HeartbeatsAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0.5223880597014925
+# HELP Hadoop_DataNode_HeartbeatsNumOps Hadoop_DataNode_HeartbeatsNumOps
+# TYPE Hadoop_DataNode_HeartbeatsNumOps counter
+Hadoop_DataNode_HeartbeatsNumOps{Context="dfs",Hostname="localhost",SessionId=""} 1.78342e+06
+# HELP Hadoop_DataNode_HeartbeatsTotalAvgTime Hadoop_DataNode_HeartbeatsTotalAvgTime
+# TYPE Hadoop_DataNode_HeartbeatsTotalAvgTime counter
+Hadoop_DataNode_HeartbeatsTotalAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0.5522388059701493
+# HELP Hadoop_DataNode_HeartbeatsTotalNumOps Hadoop_DataNode_HeartbeatsTotalNumOps
+# TYPE Hadoop_DataNode_HeartbeatsTotalNumOps counter
+Hadoop_DataNode_HeartbeatsTotalNumOps{Context="dfs",Hostname="localhost",SessionId=""} 1.78342e+06
+# HELP Hadoop_DataNode_HttpPort Hadoop_DataNode_HttpPort
+# TYPE Hadoop_DataNode_HttpPort counter
+Hadoop_DataNode_HttpPort 0
+# HELP Hadoop_DataNode_IncrementalBlockReportsAvgTime Hadoop_DataNode_IncrementalBlockReportsAvgTime
+# TYPE Hadoop_DataNode_IncrementalBlockReportsAvgTime counter
+Hadoop_DataNode_IncrementalBlockReportsAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_IncrementalBlockReportsNumOps Hadoop_DataNode_IncrementalBlockReportsNumOps
+# TYPE Hadoop_DataNode_IncrementalBlockReportsNumOps counter
+Hadoop_DataNode_IncrementalBlockReportsNumOps{Context="dfs",Hostname="localhost",SessionId=""} 9826
+# HELP Hadoop_DataNode_LastVolumeFailureDate Hadoop_DataNode_LastVolumeFailureDate
+# TYPE Hadoop_DataNode_LastVolumeFailureDate counter
+Hadoop_DataNode_LastVolumeFailureDate{Context="FSDatasetState",Hostname="localhost",StorageInfo="FSDataset{dirpath='[/home/hadoop/hadoop-3.3.2/data/data]'}"} 0
+# HELP Hadoop_DataNode_LastVolumeFailureDate0 Hadoop_DataNode_LastVolumeFailureDate0
+# TYPE Hadoop_DataNode_LastVolumeFailureDate0 counter
+Hadoop_DataNode_LastVolumeFailureDate0 0
+# HELP Hadoop_DataNode_LifelinesAvgTime Hadoop_DataNode_LifelinesAvgTime
+# TYPE Hadoop_DataNode_LifelinesAvgTime counter
+Hadoop_DataNode_LifelinesAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_LifelinesNumOps Hadoop_DataNode_LifelinesNumOps
+# TYPE Hadoop_DataNode_LifelinesNumOps counter
+Hadoop_DataNode_LifelinesNumOps{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_LogError Hadoop_DataNode_LogError
+# TYPE Hadoop_DataNode_LogError counter
+Hadoop_DataNode_LogError{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 8
+# HELP Hadoop_DataNode_LogFatal Hadoop_DataNode_LogFatal
+# TYPE Hadoop_DataNode_LogFatal counter
+Hadoop_DataNode_LogFatal{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 0
+# HELP Hadoop_DataNode_LogInfo Hadoop_DataNode_LogInfo
+# TYPE Hadoop_DataNode_LogInfo counter
+Hadoop_DataNode_LogInfo{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 49847
+# HELP Hadoop_DataNode_LogWarn Hadoop_DataNode_LogWarn
+# TYPE Hadoop_DataNode_LogWarn counter
+Hadoop_DataNode_LogWarn{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 4
+# HELP Hadoop_DataNode_LoginFailureAvgTime Hadoop_DataNode_LoginFailureAvgTime
+# TYPE Hadoop_DataNode_LoginFailureAvgTime counter
+Hadoop_DataNode_LoginFailureAvgTime{Context="ugi",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_LoginFailureNumOps Hadoop_DataNode_LoginFailureNumOps
+# TYPE Hadoop_DataNode_LoginFailureNumOps counter
+Hadoop_DataNode_LoginFailureNumOps{Context="ugi",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_LoginSuccessAvgTime Hadoop_DataNode_LoginSuccessAvgTime
+# TYPE Hadoop_DataNode_LoginSuccessAvgTime counter
+Hadoop_DataNode_LoginSuccessAvgTime{Context="ugi",Hostname="localhost"} 3
+# HELP Hadoop_DataNode_LoginSuccessNumOps Hadoop_DataNode_LoginSuccessNumOps
+# TYPE Hadoop_DataNode_LoginSuccessNumOps counter
+Hadoop_DataNode_LoginSuccessNumOps{Context="ugi",Hostname="localhost"} 1
+# HELP Hadoop_DataNode_MemHeapCommittedM Hadoop_DataNode_MemHeapCommittedM
+# TYPE Hadoop_DataNode_MemHeapCommittedM counter
+Hadoop_DataNode_MemHeapCommittedM{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 234.5
+# HELP Hadoop_DataNode_MemHeapMaxM Hadoop_DataNode_MemHeapMaxM
+# TYPE Hadoop_DataNode_MemHeapMaxM counter
+Hadoop_DataNode_MemHeapMaxM{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 3474
+# HELP Hadoop_DataNode_MemHeapUsedM Hadoop_DataNode_MemHeapUsedM
+# TYPE Hadoop_DataNode_MemHeapUsedM counter
+Hadoop_DataNode_MemHeapUsedM{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 39.644943
+# HELP Hadoop_DataNode_MemMaxM Hadoop_DataNode_MemMaxM
+# TYPE Hadoop_DataNode_MemMaxM counter
+Hadoop_DataNode_MemMaxM{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 3474
+# HELP Hadoop_DataNode_MemNonHeapCommittedM Hadoop_DataNode_MemNonHeapCommittedM
+# TYPE Hadoop_DataNode_MemNonHeapCommittedM counter
+Hadoop_DataNode_MemNonHeapCommittedM{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 73.625
+# HELP Hadoop_DataNode_MemNonHeapMaxM Hadoop_DataNode_MemNonHeapMaxM
+# TYPE Hadoop_DataNode_MemNonHeapMaxM counter
+Hadoop_DataNode_MemNonHeapMaxM{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} -1
+# HELP Hadoop_DataNode_MemNonHeapUsedM Hadoop_DataNode_MemNonHeapUsedM
+# TYPE Hadoop_DataNode_MemNonHeapUsedM counter
+Hadoop_DataNode_MemNonHeapUsedM{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 72.01995
+# HELP Hadoop_DataNode_MetadataOperationRateAvgTime Hadoop_DataNode_MetadataOperationRateAvgTime
+# TYPE Hadoop_DataNode_MetadataOperationRateAvgTime counter
+Hadoop_DataNode_MetadataOperationRateAvgTime{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_MetadataOperationRateNumOps Hadoop_DataNode_MetadataOperationRateNumOps
+# TYPE Hadoop_DataNode_MetadataOperationRateNumOps counter
+Hadoop_DataNode_MetadataOperationRateNumOps{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_NamenodeAddresses Hadoop_DataNode_NamenodeAddresses
+# TYPE Hadoop_DataNode_NamenodeAddresses counter
+Hadoop_DataNode_NamenodeAddresses 0
+# HELP Hadoop_DataNode_NativeCopyIoRateAvgTime Hadoop_DataNode_NativeCopyIoRateAvgTime
+# TYPE Hadoop_DataNode_NativeCopyIoRateAvgTime counter
+Hadoop_DataNode_NativeCopyIoRateAvgTime{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_NativeCopyIoRateNumOps Hadoop_DataNode_NativeCopyIoRateNumOps
+# TYPE Hadoop_DataNode_NativeCopyIoRateNumOps counter
+Hadoop_DataNode_NativeCopyIoRateNumOps{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_NumActiveSinks Hadoop_DataNode_NumActiveSinks
+# TYPE Hadoop_DataNode_NumActiveSinks counter
+Hadoop_DataNode_NumActiveSinks{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_DataNode_NumActiveSources Hadoop_DataNode_NumActiveSources
+# TYPE Hadoop_DataNode_NumActiveSources counter
+Hadoop_DataNode_NumActiveSources{Context="metricssystem",Hostname="localhost",sub="Stats"} 7
+# HELP Hadoop_DataNode_NumAllSinks Hadoop_DataNode_NumAllSinks
+# TYPE Hadoop_DataNode_NumAllSinks counter
+Hadoop_DataNode_NumAllSinks{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_DataNode_NumAllSources Hadoop_DataNode_NumAllSources
+# TYPE Hadoop_DataNode_NumAllSources counter
+Hadoop_DataNode_NumAllSources{Context="metricssystem",Hostname="localhost",sub="Stats"} 7
+# HELP Hadoop_DataNode_NumBlocksCached Hadoop_DataNode_NumBlocksCached
+# TYPE Hadoop_DataNode_NumBlocksCached counter
+Hadoop_DataNode_NumBlocksCached{Context="FSDatasetState",Hostname="localhost",StorageInfo="FSDataset{dirpath='[/home/hadoop/hadoop-3.3.2/data/data]'}"} 0
+# HELP Hadoop_DataNode_NumBlocksCached0 Hadoop_DataNode_NumBlocksCached0
+# TYPE Hadoop_DataNode_NumBlocksCached0 counter
+Hadoop_DataNode_NumBlocksCached0 0
+# HELP Hadoop_DataNode_NumBlocksFailedToCache Hadoop_DataNode_NumBlocksFailedToCache
+# TYPE Hadoop_DataNode_NumBlocksFailedToCache counter
+Hadoop_DataNode_NumBlocksFailedToCache{Context="FSDatasetState",Hostname="localhost",StorageInfo="FSDataset{dirpath='[/home/hadoop/hadoop-3.3.2/data/data]'}"} 0
+# HELP Hadoop_DataNode_NumBlocksFailedToCache0 Hadoop_DataNode_NumBlocksFailedToCache0
+# TYPE Hadoop_DataNode_NumBlocksFailedToCache0 counter
+Hadoop_DataNode_NumBlocksFailedToCache0 0
+# HELP Hadoop_DataNode_NumBlocksFailedToUnCache Hadoop_DataNode_NumBlocksFailedToUnCache
+# TYPE Hadoop_DataNode_NumBlocksFailedToUnCache counter
+Hadoop_DataNode_NumBlocksFailedToUnCache{Context="FSDatasetState",Hostname="localhost",StorageInfo="FSDataset{dirpath='[/home/hadoop/hadoop-3.3.2/data/data]'}"} 9790
+# HELP Hadoop_DataNode_NumBlocksFailedToUncache0 Hadoop_DataNode_NumBlocksFailedToUncache0
+# TYPE Hadoop_DataNode_NumBlocksFailedToUncache0 counter
+Hadoop_DataNode_NumBlocksFailedToUncache0 9790
+# HELP Hadoop_DataNode_NumDroppedConnections Hadoop_DataNode_NumDroppedConnections
+# TYPE Hadoop_DataNode_NumDroppedConnections counter
+Hadoop_DataNode_NumDroppedConnections{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_NumFailedVolumes Hadoop_DataNode_NumFailedVolumes
+# TYPE Hadoop_DataNode_NumFailedVolumes counter
+Hadoop_DataNode_NumFailedVolumes{Context="FSDatasetState",Hostname="localhost",StorageInfo="FSDataset{dirpath='[/home/hadoop/hadoop-3.3.2/data/data]'}"} 0
+# HELP Hadoop_DataNode_NumFailedVolumes0 Hadoop_DataNode_NumFailedVolumes0
+# TYPE Hadoop_DataNode_NumFailedVolumes0 counter
+Hadoop_DataNode_NumFailedVolumes0 0
+# HELP Hadoop_DataNode_NumOpenConnections Hadoop_DataNode_NumOpenConnections
+# TYPE Hadoop_DataNode_NumOpenConnections counter
+Hadoop_DataNode_NumOpenConnections{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_NumProcessedCommands Hadoop_DataNode_NumProcessedCommands
+# TYPE Hadoop_DataNode_NumProcessedCommands counter
+Hadoop_DataNode_NumProcessedCommands{Context="dfs",Hostname="localhost",SessionId=""} 1.783669e+06
+# HELP Hadoop_DataNode_PacketAckRoundTripTimeNanosAvgTime Hadoop_DataNode_PacketAckRoundTripTimeNanosAvgTime
+# TYPE Hadoop_DataNode_PacketAckRoundTripTimeNanosAvgTime counter
+Hadoop_DataNode_PacketAckRoundTripTimeNanosAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_PacketAckRoundTripTimeNanosNumOps Hadoop_DataNode_PacketAckRoundTripTimeNanosNumOps
+# TYPE Hadoop_DataNode_PacketAckRoundTripTimeNanosNumOps counter
+Hadoop_DataNode_PacketAckRoundTripTimeNanosNumOps{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_ProcessedCommandsOpAvgTime Hadoop_DataNode_ProcessedCommandsOpAvgTime
+# TYPE Hadoop_DataNode_ProcessedCommandsOpAvgTime counter
+Hadoop_DataNode_ProcessedCommandsOpAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_ProcessedCommandsOpNumOps Hadoop_DataNode_ProcessedCommandsOpNumOps
+# TYPE Hadoop_DataNode_ProcessedCommandsOpNumOps counter
+Hadoop_DataNode_ProcessedCommandsOpNumOps{Context="dfs",Hostname="localhost",SessionId=""} 6743
+# HELP Hadoop_DataNode_PublishAvgTime Hadoop_DataNode_PublishAvgTime
+# TYPE Hadoop_DataNode_PublishAvgTime counter
+Hadoop_DataNode_PublishAvgTime{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_DataNode_PublishNumOps Hadoop_DataNode_PublishNumOps
+# TYPE Hadoop_DataNode_PublishNumOps counter
+Hadoop_DataNode_PublishNumOps{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_DataNode_RamDiskBlocksDeletedBeforeLazyPersisted Hadoop_DataNode_RamDiskBlocksDeletedBeforeLazyPersisted
+# TYPE Hadoop_DataNode_RamDiskBlocksDeletedBeforeLazyPersisted counter
+Hadoop_DataNode_RamDiskBlocksDeletedBeforeLazyPersisted{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBlocksEvicted Hadoop_DataNode_RamDiskBlocksEvicted
+# TYPE Hadoop_DataNode_RamDiskBlocksEvicted counter
+Hadoop_DataNode_RamDiskBlocksEvicted{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBlocksEvictedWithoutRead Hadoop_DataNode_RamDiskBlocksEvictedWithoutRead
+# TYPE Hadoop_DataNode_RamDiskBlocksEvictedWithoutRead counter
+Hadoop_DataNode_RamDiskBlocksEvictedWithoutRead{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBlocksEvictionWindowMsAvgTime Hadoop_DataNode_RamDiskBlocksEvictionWindowMsAvgTime
+# TYPE Hadoop_DataNode_RamDiskBlocksEvictionWindowMsAvgTime counter
+Hadoop_DataNode_RamDiskBlocksEvictionWindowMsAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBlocksEvictionWindowMsNumOps Hadoop_DataNode_RamDiskBlocksEvictionWindowMsNumOps
+# TYPE Hadoop_DataNode_RamDiskBlocksEvictionWindowMsNumOps counter
+Hadoop_DataNode_RamDiskBlocksEvictionWindowMsNumOps{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBlocksLazyPersistWindowMsAvgTime Hadoop_DataNode_RamDiskBlocksLazyPersistWindowMsAvgTime
+# TYPE Hadoop_DataNode_RamDiskBlocksLazyPersistWindowMsAvgTime counter
+Hadoop_DataNode_RamDiskBlocksLazyPersistWindowMsAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBlocksLazyPersistWindowMsNumOps Hadoop_DataNode_RamDiskBlocksLazyPersistWindowMsNumOps
+# TYPE Hadoop_DataNode_RamDiskBlocksLazyPersistWindowMsNumOps counter
+Hadoop_DataNode_RamDiskBlocksLazyPersistWindowMsNumOps{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBlocksLazyPersisted Hadoop_DataNode_RamDiskBlocksLazyPersisted
+# TYPE Hadoop_DataNode_RamDiskBlocksLazyPersisted counter
+Hadoop_DataNode_RamDiskBlocksLazyPersisted{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBlocksReadHits Hadoop_DataNode_RamDiskBlocksReadHits
+# TYPE Hadoop_DataNode_RamDiskBlocksReadHits counter
+Hadoop_DataNode_RamDiskBlocksReadHits{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBlocksWrite Hadoop_DataNode_RamDiskBlocksWrite
+# TYPE Hadoop_DataNode_RamDiskBlocksWrite counter
+Hadoop_DataNode_RamDiskBlocksWrite{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBlocksWriteFallback Hadoop_DataNode_RamDiskBlocksWriteFallback
+# TYPE Hadoop_DataNode_RamDiskBlocksWriteFallback counter
+Hadoop_DataNode_RamDiskBlocksWriteFallback{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBytesLazyPersisted Hadoop_DataNode_RamDiskBytesLazyPersisted
+# TYPE Hadoop_DataNode_RamDiskBytesLazyPersisted counter
+Hadoop_DataNode_RamDiskBytesLazyPersisted{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RamDiskBytesWrite Hadoop_DataNode_RamDiskBytesWrite
+# TYPE Hadoop_DataNode_RamDiskBytesWrite counter
+Hadoop_DataNode_RamDiskBytesWrite{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_ReadBlockOpAvgTime Hadoop_DataNode_ReadBlockOpAvgTime
+# TYPE Hadoop_DataNode_ReadBlockOpAvgTime counter
+Hadoop_DataNode_ReadBlockOpAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_ReadBlockOpNumOps Hadoop_DataNode_ReadBlockOpNumOps
+# TYPE Hadoop_DataNode_ReadBlockOpNumOps counter
+Hadoop_DataNode_ReadBlockOpNumOps{Context="dfs",Hostname="localhost",SessionId=""} 5549
+# HELP Hadoop_DataNode_ReadIoRateAvgTime Hadoop_DataNode_ReadIoRateAvgTime
+# TYPE Hadoop_DataNode_ReadIoRateAvgTime counter
+Hadoop_DataNode_ReadIoRateAvgTime{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_ReadIoRateNumOps Hadoop_DataNode_ReadIoRateNumOps
+# TYPE Hadoop_DataNode_ReadIoRateNumOps counter
+Hadoop_DataNode_ReadIoRateNumOps{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_ReadsFromLocalClient Hadoop_DataNode_ReadsFromLocalClient
+# TYPE Hadoop_DataNode_ReadsFromLocalClient counter
+Hadoop_DataNode_ReadsFromLocalClient{Context="dfs",Hostname="localhost",SessionId=""} 5519
+# HELP Hadoop_DataNode_ReadsFromRemoteClient Hadoop_DataNode_ReadsFromRemoteClient
+# TYPE Hadoop_DataNode_ReadsFromRemoteClient counter
+Hadoop_DataNode_ReadsFromRemoteClient{Context="dfs",Hostname="localhost",SessionId=""} 30
+# HELP Hadoop_DataNode_ReceivedBytes Hadoop_DataNode_ReceivedBytes
+# TYPE Hadoop_DataNode_ReceivedBytes counter
+Hadoop_DataNode_ReceivedBytes{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 14
+# HELP Hadoop_DataNode_Remaining Hadoop_DataNode_Remaining
+# TYPE Hadoop_DataNode_Remaining counter
+Hadoop_DataNode_Remaining{Context="FSDatasetState",Hostname="localhost",StorageInfo="FSDataset{dirpath='[/home/hadoop/hadoop-3.3.2/data/data]'}"} 0
+# HELP Hadoop_DataNode_Remaining0 Hadoop_DataNode_Remaining0
+# TYPE Hadoop_DataNode_Remaining0 counter
+Hadoop_DataNode_Remaining0 0
+# HELP Hadoop_DataNode_RemoteBytesRead Hadoop_DataNode_RemoteBytesRead
+# TYPE Hadoop_DataNode_RemoteBytesRead counter
+Hadoop_DataNode_RemoteBytesRead{Context="dfs",Hostname="localhost",SessionId=""} 326
+# HELP Hadoop_DataNode_RemoteBytesWritten Hadoop_DataNode_RemoteBytesWritten
+# TYPE Hadoop_DataNode_RemoteBytesWritten counter
+Hadoop_DataNode_RemoteBytesWritten{Context="dfs",Hostname="localhost",SessionId=""} 136
+# HELP Hadoop_DataNode_RenewalFailures Hadoop_DataNode_RenewalFailures
+# TYPE Hadoop_DataNode_RenewalFailures counter
+Hadoop_DataNode_RenewalFailures{Context="ugi",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_RenewalFailuresTotal Hadoop_DataNode_RenewalFailuresTotal
+# TYPE Hadoop_DataNode_RenewalFailuresTotal counter
+Hadoop_DataNode_RenewalFailuresTotal{Context="ugi",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_ReplaceBlockOpAvgTime Hadoop_DataNode_ReplaceBlockOpAvgTime
+# TYPE Hadoop_DataNode_ReplaceBlockOpAvgTime counter
+Hadoop_DataNode_ReplaceBlockOpAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_ReplaceBlockOpNumOps Hadoop_DataNode_ReplaceBlockOpNumOps
+# TYPE Hadoop_DataNode_ReplaceBlockOpNumOps counter
+Hadoop_DataNode_ReplaceBlockOpNumOps{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_RpcAuthenticationFailures Hadoop_DataNode_RpcAuthenticationFailures
+# TYPE Hadoop_DataNode_RpcAuthenticationFailures counter
+Hadoop_DataNode_RpcAuthenticationFailures{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_RpcAuthenticationSuccesses Hadoop_DataNode_RpcAuthenticationSuccesses
+# TYPE Hadoop_DataNode_RpcAuthenticationSuccesses counter
+Hadoop_DataNode_RpcAuthenticationSuccesses{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_RpcAuthorizationFailures Hadoop_DataNode_RpcAuthorizationFailures
+# TYPE Hadoop_DataNode_RpcAuthorizationFailures counter
+Hadoop_DataNode_RpcAuthorizationFailures{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_RpcAuthorizationSuccesses Hadoop_DataNode_RpcAuthorizationSuccesses
+# TYPE Hadoop_DataNode_RpcAuthorizationSuccesses counter
+Hadoop_DataNode_RpcAuthorizationSuccesses{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_RpcClientBackoff Hadoop_DataNode_RpcClientBackoff
+# TYPE Hadoop_DataNode_RpcClientBackoff counter
+Hadoop_DataNode_RpcClientBackoff{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_RpcLockWaitTimeAvgTime Hadoop_DataNode_RpcLockWaitTimeAvgTime
+# TYPE Hadoop_DataNode_RpcLockWaitTimeAvgTime counter
+Hadoop_DataNode_RpcLockWaitTimeAvgTime{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_RpcLockWaitTimeNumOps Hadoop_DataNode_RpcLockWaitTimeNumOps
+# TYPE Hadoop_DataNode_RpcLockWaitTimeNumOps counter
+Hadoop_DataNode_RpcLockWaitTimeNumOps{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_RpcPort Hadoop_DataNode_RpcPort
+# TYPE Hadoop_DataNode_RpcPort counter
+Hadoop_DataNode_RpcPort 0
+# HELP Hadoop_DataNode_RpcProcessingTimeAvgTime Hadoop_DataNode_RpcProcessingTimeAvgTime
+# TYPE Hadoop_DataNode_RpcProcessingTimeAvgTime counter
+Hadoop_DataNode_RpcProcessingTimeAvgTime{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_RpcProcessingTimeNumOps Hadoop_DataNode_RpcProcessingTimeNumOps
+# TYPE Hadoop_DataNode_RpcProcessingTimeNumOps counter
+Hadoop_DataNode_RpcProcessingTimeNumOps{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_RpcQueueTimeAvgTime Hadoop_DataNode_RpcQueueTimeAvgTime
+# TYPE Hadoop_DataNode_RpcQueueTimeAvgTime counter
+Hadoop_DataNode_RpcQueueTimeAvgTime{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_RpcQueueTimeNumOps Hadoop_DataNode_RpcQueueTimeNumOps
+# TYPE Hadoop_DataNode_RpcQueueTimeNumOps counter
+Hadoop_DataNode_RpcQueueTimeNumOps{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_RpcSlowCalls Hadoop_DataNode_RpcSlowCalls
+# TYPE Hadoop_DataNode_RpcSlowCalls counter
+Hadoop_DataNode_RpcSlowCalls{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 0
+# HELP Hadoop_DataNode_SecurityEnabled Hadoop_DataNode_SecurityEnabled
+# TYPE Hadoop_DataNode_SecurityEnabled counter
+Hadoop_DataNode_SecurityEnabled 0
+# HELP Hadoop_DataNode_SendDataPacketBlockedOnNetworkNanosAvgTime Hadoop_DataNode_SendDataPacketBlockedOnNetworkNanosAvgTime
+# TYPE Hadoop_DataNode_SendDataPacketBlockedOnNetworkNanosAvgTime counter
+Hadoop_DataNode_SendDataPacketBlockedOnNetworkNanosAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 6689.375
+# HELP Hadoop_DataNode_SendDataPacketBlockedOnNetworkNanosNumOps Hadoop_DataNode_SendDataPacketBlockedOnNetworkNanosNumOps
+# TYPE Hadoop_DataNode_SendDataPacketBlockedOnNetworkNanosNumOps counter
+Hadoop_DataNode_SendDataPacketBlockedOnNetworkNanosNumOps{Context="dfs",Hostname="localhost",SessionId=""} 11164
+# HELP Hadoop_DataNode_SendDataPacketTransferNanosAvgTime Hadoop_DataNode_SendDataPacketTransferNanosAvgTime
+# TYPE Hadoop_DataNode_SendDataPacketTransferNanosAvgTime counter
+Hadoop_DataNode_SendDataPacketTransferNanosAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 7608.875
+# HELP Hadoop_DataNode_SendDataPacketTransferNanosNumOps Hadoop_DataNode_SendDataPacketTransferNanosNumOps
+# TYPE Hadoop_DataNode_SendDataPacketTransferNanosNumOps counter
+Hadoop_DataNode_SendDataPacketTransferNanosNumOps{Context="dfs",Hostname="localhost",SessionId=""} 11164
+# HELP Hadoop_DataNode_SendPacketDownstreamAvgInfo Hadoop_DataNode_SendPacketDownstreamAvgInfo
+# TYPE Hadoop_DataNode_SendPacketDownstreamAvgInfo counter
+Hadoop_DataNode_SendPacketDownstreamAvgInfo 0
+# HELP Hadoop_DataNode_SentBytes Hadoop_DataNode_SentBytes
+# TYPE Hadoop_DataNode_SentBytes counter
+Hadoop_DataNode_SentBytes{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{}",port="9867",serverName="ClientDatanodeProtocolService"} 374
+# HELP Hadoop_DataNode_SlowDisks Hadoop_DataNode_SlowDisks
+# TYPE Hadoop_DataNode_SlowDisks counter
+Hadoop_DataNode_SlowDisks 0
+# HELP Hadoop_DataNode_SnapshotAvgTime Hadoop_DataNode_SnapshotAvgTime
+# TYPE Hadoop_DataNode_SnapshotAvgTime counter
+Hadoop_DataNode_SnapshotAvgTime{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_DataNode_SnapshotNumOps Hadoop_DataNode_SnapshotNumOps
+# TYPE Hadoop_DataNode_SnapshotNumOps counter
+Hadoop_DataNode_SnapshotNumOps{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_DataNode_SoftwareVersion Hadoop_DataNode_SoftwareVersion
+# TYPE Hadoop_DataNode_SoftwareVersion counter
+Hadoop_DataNode_SoftwareVersion 0
+# HELP Hadoop_DataNode_StorageInfo Hadoop_DataNode_StorageInfo
+# TYPE Hadoop_DataNode_StorageInfo counter
+Hadoop_DataNode_StorageInfo 0
+# HELP Hadoop_DataNode_SumOfActorCommandQueueLength Hadoop_DataNode_SumOfActorCommandQueueLength
+# TYPE Hadoop_DataNode_SumOfActorCommandQueueLength counter
+Hadoop_DataNode_SumOfActorCommandQueueLength{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_SyncIoRateAvgTime Hadoop_DataNode_SyncIoRateAvgTime
+# TYPE Hadoop_DataNode_SyncIoRateAvgTime counter
+Hadoop_DataNode_SyncIoRateAvgTime{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_SyncIoRateNumOps Hadoop_DataNode_SyncIoRateNumOps
+# TYPE Hadoop_DataNode_SyncIoRateNumOps counter
+Hadoop_DataNode_SyncIoRateNumOps{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_ThreadsBlocked Hadoop_DataNode_ThreadsBlocked
+# TYPE Hadoop_DataNode_ThreadsBlocked counter
+Hadoop_DataNode_ThreadsBlocked{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 0
+# HELP Hadoop_DataNode_ThreadsNew Hadoop_DataNode_ThreadsNew
+# TYPE Hadoop_DataNode_ThreadsNew counter
+Hadoop_DataNode_ThreadsNew{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 0
+# HELP Hadoop_DataNode_ThreadsRunnable Hadoop_DataNode_ThreadsRunnable
+# TYPE Hadoop_DataNode_ThreadsRunnable counter
+Hadoop_DataNode_ThreadsRunnable{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 28
+# HELP Hadoop_DataNode_ThreadsTerminated Hadoop_DataNode_ThreadsTerminated
+# TYPE Hadoop_DataNode_ThreadsTerminated counter
+Hadoop_DataNode_ThreadsTerminated{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 0
+# HELP Hadoop_DataNode_ThreadsTimedWaiting Hadoop_DataNode_ThreadsTimedWaiting
+# TYPE Hadoop_DataNode_ThreadsTimedWaiting counter
+Hadoop_DataNode_ThreadsTimedWaiting{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 24
+# HELP Hadoop_DataNode_ThreadsWaiting Hadoop_DataNode_ThreadsWaiting
+# TYPE Hadoop_DataNode_ThreadsWaiting counter
+Hadoop_DataNode_ThreadsWaiting{Context="jvm",Hostname="localhost",ProcessName="DataNode",SessionId=""} 14
+# HELP Hadoop_DataNode_TotalDataFileIos Hadoop_DataNode_TotalDataFileIos
+# TYPE Hadoop_DataNode_TotalDataFileIos counter
+Hadoop_DataNode_TotalDataFileIos{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_TotalFileIoErrors Hadoop_DataNode_TotalFileIoErrors
+# TYPE Hadoop_DataNode_TotalFileIoErrors counter
+Hadoop_DataNode_TotalFileIoErrors{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_TotalMetadataOperations Hadoop_DataNode_TotalMetadataOperations
+# TYPE Hadoop_DataNode_TotalMetadataOperations counter
+Hadoop_DataNode_TotalMetadataOperations{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_TotalReadTime Hadoop_DataNode_TotalReadTime
+# TYPE Hadoop_DataNode_TotalReadTime counter
+Hadoop_DataNode_TotalReadTime{Context="dfs",Hostname="localhost",SessionId=""} 1380
+# HELP Hadoop_DataNode_TotalWriteTime Hadoop_DataNode_TotalWriteTime
+# TYPE Hadoop_DataNode_TotalWriteTime counter
+Hadoop_DataNode_TotalWriteTime{Context="dfs",Hostname="localhost",SessionId=""} 520
+# HELP Hadoop_DataNode_TransferIoRateAvgTime Hadoop_DataNode_TransferIoRateAvgTime
+# TYPE Hadoop_DataNode_TransferIoRateAvgTime counter
+Hadoop_DataNode_TransferIoRateAvgTime{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_TransferIoRateNumOps Hadoop_DataNode_TransferIoRateNumOps
+# TYPE Hadoop_DataNode_TransferIoRateNumOps counter
+Hadoop_DataNode_TransferIoRateNumOps{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_Version Hadoop_DataNode_Version
+# TYPE Hadoop_DataNode_Version counter
+Hadoop_DataNode_Version 0
+# HELP Hadoop_DataNode_VolumeFailures Hadoop_DataNode_VolumeFailures
+# TYPE Hadoop_DataNode_VolumeFailures counter
+Hadoop_DataNode_VolumeFailures{Context="dfs",Hostname="localhost",SessionId=""} 0
+# HELP Hadoop_DataNode_VolumeInfo Hadoop_DataNode_VolumeInfo
+# TYPE Hadoop_DataNode_VolumeInfo counter
+Hadoop_DataNode_VolumeInfo 0
+# HELP Hadoop_DataNode_WriteBlockOpAvgTime Hadoop_DataNode_WriteBlockOpAvgTime
+# TYPE Hadoop_DataNode_WriteBlockOpAvgTime counter
+Hadoop_DataNode_WriteBlockOpAvgTime{Context="dfs",Hostname="localhost",SessionId=""} 900033
+# HELP Hadoop_DataNode_WriteBlockOpNumOps Hadoop_DataNode_WriteBlockOpNumOps
+# TYPE Hadoop_DataNode_WriteBlockOpNumOps counter
+Hadoop_DataNode_WriteBlockOpNumOps{Context="dfs",Hostname="localhost",SessionId=""} 9808
+# HELP Hadoop_DataNode_WriteIoRateAvgTime Hadoop_DataNode_WriteIoRateAvgTime
+# TYPE Hadoop_DataNode_WriteIoRateAvgTime counter
+Hadoop_DataNode_WriteIoRateAvgTime{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_WriteIoRateNumOps Hadoop_DataNode_WriteIoRateNumOps
+# TYPE Hadoop_DataNode_WriteIoRateNumOps counter
+Hadoop_DataNode_WriteIoRateNumOps{Context="dfs",Hostname="localhost"} 0
+# HELP Hadoop_DataNode_WritesFromLocalClient Hadoop_DataNode_WritesFromLocalClient
+# TYPE Hadoop_DataNode_WritesFromLocalClient counter
+Hadoop_DataNode_WritesFromLocalClient{Context="dfs",Hostname="localhost",SessionId=""} 9788
+# HELP Hadoop_DataNode_WritesFromRemoteClient Hadoop_DataNode_WritesFromRemoteClient
+# TYPE Hadoop_DataNode_WritesFromRemoteClient counter
+Hadoop_DataNode_WritesFromRemoteClient{Context="dfs",Hostname="localhost",SessionId=""} 20
+# HELP Hadoop_DataNode_XceiverCount Hadoop_DataNode_XceiverCount
+# TYPE Hadoop_DataNode_XceiverCount counter
+Hadoop_DataNode_XceiverCount 3
+# HELP Hadoop_DataNode_XmitsInProgress Hadoop_DataNode_XmitsInProgress
+# TYPE Hadoop_DataNode_XmitsInProgress counter
+Hadoop_DataNode_XmitsInProgress 0

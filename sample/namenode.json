@@ -1,0 +1,1122 @@
+# HELP Hadoop_NameNode_AddBlockAvgTime Hadoop_NameNode_AddBlockAvgTime
+# TYPE Hadoop_NameNode_AddBlockAvgTime counter
+Hadoop_NameNode_AddBlockAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_AddBlockNumOps Hadoop_NameNode_AddBlockNumOps
+# TYPE Hadoop_NameNode_AddBlockNumOps counter
+Hadoop_NameNode_AddBlockNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 9811
+# HELP Hadoop_NameNode_AddBlockOps Hadoop_NameNode_AddBlockOps
+# TYPE Hadoop_NameNode_AddBlockOps counter
+Hadoop_NameNode_AddBlockOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 9811
+# HELP Hadoop_NameNode_AllowSnapshotOps Hadoop_NameNode_AllowSnapshotOps
+# TYPE Hadoop_NameNode_AllowSnapshotOps counter
+Hadoop_NameNode_AllowSnapshotOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_BlockCapacity Hadoop_NameNode_BlockCapacity
+# TYPE Hadoop_NameNode_BlockCapacity counter
+Hadoop_NameNode_BlockCapacity{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 8.388608e+06
+# HELP Hadoop_NameNode_BlockDeletionStartTime Hadoop_NameNode_BlockDeletionStartTime
+# TYPE Hadoop_NameNode_BlockDeletionStartTime counter
+Hadoop_NameNode_BlockDeletionStartTime 0
+# HELP Hadoop_NameNode_BlockOpsBatched Hadoop_NameNode_BlockOpsBatched
+# TYPE Hadoop_NameNode_BlockOpsBatched counter
+Hadoop_NameNode_BlockOpsBatched{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 2
+# HELP Hadoop_NameNode_BlockOpsQueued Hadoop_NameNode_BlockOpsQueued
+# TYPE Hadoop_NameNode_BlockOpsQueued counter
+Hadoop_NameNode_BlockOpsQueued{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 1
+# HELP Hadoop_NameNode_BlockPoolId Hadoop_NameNode_BlockPoolId
+# TYPE Hadoop_NameNode_BlockPoolId counter
+Hadoop_NameNode_BlockPoolId 0
+# HELP Hadoop_NameNode_BlockPoolUsedSpace Hadoop_NameNode_BlockPoolUsedSpace
+# TYPE Hadoop_NameNode_BlockPoolUsedSpace counter
+Hadoop_NameNode_BlockPoolUsedSpace 1.2652544e+07
+# HELP Hadoop_NameNode_BlockReceivedAndDeletedAvgTime Hadoop_NameNode_BlockReceivedAndDeletedAvgTime
+# TYPE Hadoop_NameNode_BlockReceivedAndDeletedAvgTime counter
+Hadoop_NameNode_BlockReceivedAndDeletedAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_BlockReceivedAndDeletedNumOps Hadoop_NameNode_BlockReceivedAndDeletedNumOps
+# TYPE Hadoop_NameNode_BlockReceivedAndDeletedNumOps counter
+Hadoop_NameNode_BlockReceivedAndDeletedNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 9826
+# HELP Hadoop_NameNode_BlockReceivedAndDeletedOps Hadoop_NameNode_BlockReceivedAndDeletedOps
+# TYPE Hadoop_NameNode_BlockReceivedAndDeletedOps counter
+Hadoop_NameNode_BlockReceivedAndDeletedOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 9826
+# HELP Hadoop_NameNode_BlockReportAvgTime Hadoop_NameNode_BlockReportAvgTime
+# TYPE Hadoop_NameNode_BlockReportAvgTime counter
+Hadoop_NameNode_BlockReportAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_BlockReportNumOps Hadoop_NameNode_BlockReportNumOps
+# TYPE Hadoop_NameNode_BlockReportNumOps counter
+Hadoop_NameNode_BlockReportNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 249
+# HELP Hadoop_NameNode_BlocksTotal Hadoop_NameNode_BlocksTotal
+# TYPE Hadoop_NameNode_BlocksTotal counter
+Hadoop_NameNode_BlocksTotal{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 1299
+# HELP Hadoop_NameNode_BlocksTotal0 Hadoop_NameNode_BlocksTotal0
+# TYPE Hadoop_NameNode_BlocksTotal0 counter
+Hadoop_NameNode_BlocksTotal0 1299
+# HELP Hadoop_NameNode_BytesInFutureECBlockGroups Hadoop_NameNode_BytesInFutureECBlockGroups
+# TYPE Hadoop_NameNode_BytesInFutureECBlockGroups counter
+Hadoop_NameNode_BytesInFutureECBlockGroups{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_BytesInFutureECBlockGroups0 Hadoop_NameNode_BytesInFutureECBlockGroups0
+# TYPE Hadoop_NameNode_BytesInFutureECBlockGroups0 counter
+Hadoop_NameNode_BytesInFutureECBlockGroups0 0
+# HELP Hadoop_NameNode_BytesInFutureReplicatedBlocks Hadoop_NameNode_BytesInFutureReplicatedBlocks
+# TYPE Hadoop_NameNode_BytesInFutureReplicatedBlocks counter
+Hadoop_NameNode_BytesInFutureReplicatedBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_BytesInFutureReplicatedBlocks0 Hadoop_NameNode_BytesInFutureReplicatedBlocks0
+# TYPE Hadoop_NameNode_BytesInFutureReplicatedBlocks0 counter
+Hadoop_NameNode_BytesInFutureReplicatedBlocks0 0
+# HELP Hadoop_NameNode_BytesWithFutureGenerationStamps Hadoop_NameNode_BytesWithFutureGenerationStamps
+# TYPE Hadoop_NameNode_BytesWithFutureGenerationStamps counter
+Hadoop_NameNode_BytesWithFutureGenerationStamps 0
+# HELP Hadoop_NameNode_CacheCapacity Hadoop_NameNode_CacheCapacity
+# TYPE Hadoop_NameNode_CacheCapacity counter
+Hadoop_NameNode_CacheCapacity 0
+# HELP Hadoop_NameNode_CacheCleared Hadoop_NameNode_CacheCleared
+# TYPE Hadoop_NameNode_CacheCleared counter
+Hadoop_NameNode_CacheCleared{Context="rpc",Hostname="localhost"} 0
+# HELP Hadoop_NameNode_CacheHit Hadoop_NameNode_CacheHit
+# TYPE Hadoop_NameNode_CacheHit counter
+Hadoop_NameNode_CacheHit{Context="rpc",Hostname="localhost"} 0
+# HELP Hadoop_NameNode_CacheReportAvgTime Hadoop_NameNode_CacheReportAvgTime
+# TYPE Hadoop_NameNode_CacheReportAvgTime counter
+Hadoop_NameNode_CacheReportAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_CacheReportNumOps Hadoop_NameNode_CacheReportNumOps
+# TYPE Hadoop_NameNode_CacheReportNumOps counter
+Hadoop_NameNode_CacheReportNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_CacheUpdated Hadoop_NameNode_CacheUpdated
+# TYPE Hadoop_NameNode_CacheUpdated counter
+Hadoop_NameNode_CacheUpdated{Context="rpc",Hostname="localhost"} 43512
+# HELP Hadoop_NameNode_CacheUsed Hadoop_NameNode_CacheUsed
+# TYPE Hadoop_NameNode_CacheUsed counter
+Hadoop_NameNode_CacheUsed 0
+# HELP Hadoop_NameNode_CallQueueLength Hadoop_NameNode_CallQueueLength
+# TYPE Hadoop_NameNode_CallQueueLength counter
+Hadoop_NameNode_CallQueueLength{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_CapacityRemaining Hadoop_NameNode_CapacityRemaining
+# TYPE Hadoop_NameNode_CapacityRemaining counter
+Hadoop_NameNode_CapacityRemaining{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_CapacityRemaining0 Hadoop_NameNode_CapacityRemaining0
+# TYPE Hadoop_NameNode_CapacityRemaining0 counter
+Hadoop_NameNode_CapacityRemaining0 0
+# HELP Hadoop_NameNode_CapacityRemainingGB Hadoop_NameNode_CapacityRemainingGB
+# TYPE Hadoop_NameNode_CapacityRemainingGB counter
+Hadoop_NameNode_CapacityRemainingGB{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 30
+# HELP Hadoop_NameNode_CapacityTotal Hadoop_NameNode_CapacityTotal
+# TYPE Hadoop_NameNode_CapacityTotal counter
+Hadoop_NameNode_CapacityTotal{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_CapacityTotal0 Hadoop_NameNode_CapacityTotal0
+# TYPE Hadoop_NameNode_CapacityTotal0 counter
+Hadoop_NameNode_CapacityTotal0 0
+# HELP Hadoop_NameNode_CapacityTotalGB Hadoop_NameNode_CapacityTotalGB
+# TYPE Hadoop_NameNode_CapacityTotalGB counter
+Hadoop_NameNode_CapacityTotalGB{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 44
+# HELP Hadoop_NameNode_CapacityUsed Hadoop_NameNode_CapacityUsed
+# TYPE Hadoop_NameNode_CapacityUsed counter
+Hadoop_NameNode_CapacityUsed{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 1.2652544e+07
+# HELP Hadoop_NameNode_CapacityUsed0 Hadoop_NameNode_CapacityUsed0
+# TYPE Hadoop_NameNode_CapacityUsed0 counter
+Hadoop_NameNode_CapacityUsed0 1.2652544e+07
+# HELP Hadoop_NameNode_CapacityUsedGB Hadoop_NameNode_CapacityUsedGB
+# TYPE Hadoop_NameNode_CapacityUsedGB counter
+Hadoop_NameNode_CapacityUsedGB{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_CapacityUsedNonDFS Hadoop_NameNode_CapacityUsedNonDFS
+# TYPE Hadoop_NameNode_CapacityUsedNonDFS counter
+Hadoop_NameNode_CapacityUsedNonDFS{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_ClusterId Hadoop_NameNode_ClusterId
+# TYPE Hadoop_NameNode_ClusterId counter
+Hadoop_NameNode_ClusterId 0
+# HELP Hadoop_NameNode_CommitBlockSynchronizationAvgTime Hadoop_NameNode_CommitBlockSynchronizationAvgTime
+# TYPE Hadoop_NameNode_CommitBlockSynchronizationAvgTime counter
+Hadoop_NameNode_CommitBlockSynchronizationAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 2.3333333333333335
+# HELP Hadoop_NameNode_CommitBlockSynchronizationNumOps Hadoop_NameNode_CommitBlockSynchronizationNumOps
+# TYPE Hadoop_NameNode_CommitBlockSynchronizationNumOps counter
+Hadoop_NameNode_CommitBlockSynchronizationNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 3
+# HELP Hadoop_NameNode_CompileInfo Hadoop_NameNode_CompileInfo
+# TYPE Hadoop_NameNode_CompileInfo counter
+Hadoop_NameNode_CompileInfo 0
+# HELP Hadoop_NameNode_CompleteAvgTime Hadoop_NameNode_CompleteAvgTime
+# TYPE Hadoop_NameNode_CompleteAvgTime counter
+Hadoop_NameNode_CompleteAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_CompleteNumOps Hadoop_NameNode_CompleteNumOps
+# TYPE Hadoop_NameNode_CompleteNumOps counter
+Hadoop_NameNode_CompleteNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 12240
+# HELP Hadoop_NameNode_CorruptBlocks Hadoop_NameNode_CorruptBlocks
+# TYPE Hadoop_NameNode_CorruptBlocks counter
+Hadoop_NameNode_CorruptBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_CorruptECBlockGroups Hadoop_NameNode_CorruptECBlockGroups
+# TYPE Hadoop_NameNode_CorruptECBlockGroups counter
+Hadoop_NameNode_CorruptECBlockGroups{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_CorruptECBlockGroups0 Hadoop_NameNode_CorruptECBlockGroups0
+# TYPE Hadoop_NameNode_CorruptECBlockGroups0 counter
+Hadoop_NameNode_CorruptECBlockGroups0 0
+# HELP Hadoop_NameNode_CorruptFiles Hadoop_NameNode_CorruptFiles
+# TYPE Hadoop_NameNode_CorruptFiles counter
+Hadoop_NameNode_CorruptFiles 0
+# HELP Hadoop_NameNode_CorruptFilesCount Hadoop_NameNode_CorruptFilesCount
+# TYPE Hadoop_NameNode_CorruptFilesCount counter
+Hadoop_NameNode_CorruptFilesCount 0
+# HELP Hadoop_NameNode_CorruptReplicatedBlocks Hadoop_NameNode_CorruptReplicatedBlocks
+# TYPE Hadoop_NameNode_CorruptReplicatedBlocks counter
+Hadoop_NameNode_CorruptReplicatedBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_CorruptReplicatedBlocks0 Hadoop_NameNode_CorruptReplicatedBlocks0
+# TYPE Hadoop_NameNode_CorruptReplicatedBlocks0 counter
+Hadoop_NameNode_CorruptReplicatedBlocks0 0
+# HELP Hadoop_NameNode_CreateAvgTime Hadoop_NameNode_CreateAvgTime
+# TYPE Hadoop_NameNode_CreateAvgTime counter
+Hadoop_NameNode_CreateAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_CreateFileOps Hadoop_NameNode_CreateFileOps
+# TYPE Hadoop_NameNode_CreateFileOps counter
+Hadoop_NameNode_CreateFileOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 10877
+# HELP Hadoop_NameNode_CreateNumOps Hadoop_NameNode_CreateNumOps
+# TYPE Hadoop_NameNode_CreateNumOps counter
+Hadoop_NameNode_CreateNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 10877
+# HELP Hadoop_NameNode_CreateSnapshotOps Hadoop_NameNode_CreateSnapshotOps
+# TYPE Hadoop_NameNode_CreateSnapshotOps counter
+Hadoop_NameNode_CreateSnapshotOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_CreateSymlinkOps Hadoop_NameNode_CreateSymlinkOps
+# TYPE Hadoop_NameNode_CreateSymlinkOps counter
+Hadoop_NameNode_CreateSymlinkOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_CurrentTokensCount Hadoop_NameNode_CurrentTokensCount
+# TYPE Hadoop_NameNode_CurrentTokensCount counter
+Hadoop_NameNode_CurrentTokensCount{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_CurrentTokensCount0 Hadoop_NameNode_CurrentTokensCount0
+# TYPE Hadoop_NameNode_CurrentTokensCount0 counter
+Hadoop_NameNode_CurrentTokensCount0 0
+# HELP Hadoop_NameNode_DeadNodes Hadoop_NameNode_DeadNodes
+# TYPE Hadoop_NameNode_DeadNodes counter
+Hadoop_NameNode_DeadNodes 0
+# HELP Hadoop_NameNode_DecomNodes Hadoop_NameNode_DecomNodes
+# TYPE Hadoop_NameNode_DecomNodes counter
+Hadoop_NameNode_DecomNodes 0
+# HELP Hadoop_NameNode_DeferredRpcProcessingTimeAvgTime Hadoop_NameNode_DeferredRpcProcessingTimeAvgTime
+# TYPE Hadoop_NameNode_DeferredRpcProcessingTimeAvgTime counter
+Hadoop_NameNode_DeferredRpcProcessingTimeAvgTime{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_DeferredRpcProcessingTimeNumOps Hadoop_NameNode_DeferredRpcProcessingTimeNumOps
+# TYPE Hadoop_NameNode_DeferredRpcProcessingTimeNumOps counter
+Hadoop_NameNode_DeferredRpcProcessingTimeNumOps{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_DeleteAvgTime Hadoop_NameNode_DeleteAvgTime
+# TYPE Hadoop_NameNode_DeleteAvgTime counter
+Hadoop_NameNode_DeleteAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_DeleteBlocksQueued Hadoop_NameNode_DeleteBlocksQueued
+# TYPE Hadoop_NameNode_DeleteBlocksQueued counter
+Hadoop_NameNode_DeleteBlocksQueued{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 1
+# HELP Hadoop_NameNode_DeleteFileOps Hadoop_NameNode_DeleteFileOps
+# TYPE Hadoop_NameNode_DeleteFileOps counter
+Hadoop_NameNode_DeleteFileOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 13285
+# HELP Hadoop_NameNode_DeleteNumOps Hadoop_NameNode_DeleteNumOps
+# TYPE Hadoop_NameNode_DeleteNumOps counter
+Hadoop_NameNode_DeleteNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 16017
+# HELP Hadoop_NameNode_DeleteSnapshotOps Hadoop_NameNode_DeleteSnapshotOps
+# TYPE Hadoop_NameNode_DeleteSnapshotOps counter
+Hadoop_NameNode_DeleteSnapshotOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_DisallowSnapshotOps Hadoop_NameNode_DisallowSnapshotOps
+# TYPE Hadoop_NameNode_DisallowSnapshotOps counter
+Hadoop_NameNode_DisallowSnapshotOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_DistinctVersionCount Hadoop_NameNode_DistinctVersionCount
+# TYPE Hadoop_NameNode_DistinctVersionCount counter
+Hadoop_NameNode_DistinctVersionCount 1
+# HELP Hadoop_NameNode_DistinctVersions Hadoop_NameNode_DistinctVersions
+# TYPE Hadoop_NameNode_DistinctVersions counter
+Hadoop_NameNode_DistinctVersions 0
+# HELP Hadoop_NameNode_DroppedPubAll Hadoop_NameNode_DroppedPubAll
+# TYPE Hadoop_NameNode_DroppedPubAll counter
+Hadoop_NameNode_DroppedPubAll{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_NameNode_EditLogFetchTimeAvgTime Hadoop_NameNode_EditLogFetchTimeAvgTime
+# TYPE Hadoop_NameNode_EditLogFetchTimeAvgTime counter
+Hadoop_NameNode_EditLogFetchTimeAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_EditLogFetchTimeNumOps Hadoop_NameNode_EditLogFetchTimeNumOps
+# TYPE Hadoop_NameNode_EditLogFetchTimeNumOps counter
+Hadoop_NameNode_EditLogFetchTimeNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_EditLogTailIntervalAvgTime Hadoop_NameNode_EditLogTailIntervalAvgTime
+# TYPE Hadoop_NameNode_EditLogTailIntervalAvgTime counter
+Hadoop_NameNode_EditLogTailIntervalAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_EditLogTailIntervalNumOps Hadoop_NameNode_EditLogTailIntervalNumOps
+# TYPE Hadoop_NameNode_EditLogTailIntervalNumOps counter
+Hadoop_NameNode_EditLogTailIntervalNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_EditLogTailTimeAvgTime Hadoop_NameNode_EditLogTailTimeAvgTime
+# TYPE Hadoop_NameNode_EditLogTailTimeAvgTime counter
+Hadoop_NameNode_EditLogTailTimeAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_EditLogTailTimeNumOps Hadoop_NameNode_EditLogTailTimeNumOps
+# TYPE Hadoop_NameNode_EditLogTailTimeNumOps counter
+Hadoop_NameNode_EditLogTailTimeNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_ElapsedTime Hadoop_NameNode_ElapsedTime
+# TYPE Hadoop_NameNode_ElapsedTime counter
+Hadoop_NameNode_ElapsedTime{Hostname="localhost"} 33487
+# HELP Hadoop_NameNode_EnabledEcPolicies Hadoop_NameNode_EnabledEcPolicies
+# TYPE Hadoop_NameNode_EnabledEcPolicies counter
+Hadoop_NameNode_EnabledEcPolicies 0
+# HELP Hadoop_NameNode_EnteringMaintenanceNodes Hadoop_NameNode_EnteringMaintenanceNodes
+# TYPE Hadoop_NameNode_EnteringMaintenanceNodes counter
+Hadoop_NameNode_EnteringMaintenanceNodes 0
+# HELP Hadoop_NameNode_EstimatedCapacityLostTotal Hadoop_NameNode_EstimatedCapacityLostTotal
+# TYPE Hadoop_NameNode_EstimatedCapacityLostTotal counter
+Hadoop_NameNode_EstimatedCapacityLostTotal{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_EstimatedCapacityLostTotal0 Hadoop_NameNode_EstimatedCapacityLostTotal0
+# TYPE Hadoop_NameNode_EstimatedCapacityLostTotal0 counter
+Hadoop_NameNode_EstimatedCapacityLostTotal0 0
+# HELP Hadoop_NameNode_ExcessBlocks Hadoop_NameNode_ExcessBlocks
+# TYPE Hadoop_NameNode_ExcessBlocks counter
+Hadoop_NameNode_ExcessBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_ExpiredHeartbeats Hadoop_NameNode_ExpiredHeartbeats
+# TYPE Hadoop_NameNode_ExpiredHeartbeats counter
+Hadoop_NameNode_ExpiredHeartbeats{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_FSState Hadoop_NameNode_FSState
+# TYPE Hadoop_NameNode_FSState counter
+Hadoop_NameNode_FSState 0
+# HELP Hadoop_NameNode_FileInfoOps Hadoop_NameNode_FileInfoOps
+# TYPE Hadoop_NameNode_FileInfoOps counter
+Hadoop_NameNode_FileInfoOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 129889
+# HELP Hadoop_NameNode_FileNotFoundExceptionAvgTime Hadoop_NameNode_FileNotFoundExceptionAvgTime
+# TYPE Hadoop_NameNode_FileNotFoundExceptionAvgTime counter
+Hadoop_NameNode_FileNotFoundExceptionAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_FileNotFoundExceptionNumOps Hadoop_NameNode_FileNotFoundExceptionNumOps
+# TYPE Hadoop_NameNode_FileNotFoundExceptionNumOps counter
+Hadoop_NameNode_FileNotFoundExceptionNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 6
+# HELP Hadoop_NameNode_FilesAppended Hadoop_NameNode_FilesAppended
+# TYPE Hadoop_NameNode_FilesAppended counter
+Hadoop_NameNode_FilesAppended{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_FilesCreated Hadoop_NameNode_FilesCreated
+# TYPE Hadoop_NameNode_FilesCreated counter
+Hadoop_NameNode_FilesCreated{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 13523
+# HELP Hadoop_NameNode_FilesDeleted Hadoop_NameNode_FilesDeleted
+# TYPE Hadoop_NameNode_FilesDeleted counter
+Hadoop_NameNode_FilesDeleted{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 13482
+# HELP Hadoop_NameNode_FilesInGetListingOps Hadoop_NameNode_FilesInGetListingOps
+# TYPE Hadoop_NameNode_FilesInGetListingOps counter
+Hadoop_NameNode_FilesInGetListingOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 6.602011e+06
+# HELP Hadoop_NameNode_FilesRenamed Hadoop_NameNode_FilesRenamed
+# TYPE Hadoop_NameNode_FilesRenamed counter
+Hadoop_NameNode_FilesRenamed{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 16606
+# HELP Hadoop_NameNode_FilesTotal Hadoop_NameNode_FilesTotal
+# TYPE Hadoop_NameNode_FilesTotal counter
+Hadoop_NameNode_FilesTotal{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 3537
+# HELP Hadoop_NameNode_FilesTotal0 Hadoop_NameNode_FilesTotal0
+# TYPE Hadoop_NameNode_FilesTotal0 counter
+Hadoop_NameNode_FilesTotal0 3537
+# HELP Hadoop_NameNode_FilesTruncated Hadoop_NameNode_FilesTruncated
+# TYPE Hadoop_NameNode_FilesTruncated counter
+Hadoop_NameNode_FilesTruncated{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_Free Hadoop_NameNode_Free
+# TYPE Hadoop_NameNode_Free counter
+Hadoop_NameNode_Free 0
+# HELP Hadoop_NameNode_FsImageLoadTime Hadoop_NameNode_FsImageLoadTime
+# TYPE Hadoop_NameNode_FsImageLoadTime counter
+Hadoop_NameNode_FsImageLoadTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 1053
+# HELP Hadoop_NameNode_FsLockQueueLength Hadoop_NameNode_FsLockQueueLength
+# TYPE Hadoop_NameNode_FsLockQueueLength counter
+Hadoop_NameNode_FsLockQueueLength 0
+# HELP Hadoop_NameNode_GcCount Hadoop_NameNode_GcCount
+# TYPE Hadoop_NameNode_GcCount counter
+Hadoop_NameNode_GcCount{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 2089
+# HELP Hadoop_NameNode_GcNumInfoThresholdExceeded Hadoop_NameNode_GcNumInfoThresholdExceeded
+# TYPE Hadoop_NameNode_GcNumInfoThresholdExceeded counter
+Hadoop_NameNode_GcNumInfoThresholdExceeded{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_GcNumWarnThresholdExceeded Hadoop_NameNode_GcNumWarnThresholdExceeded
+# TYPE Hadoop_NameNode_GcNumWarnThresholdExceeded counter
+Hadoop_NameNode_GcNumWarnThresholdExceeded{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_GcTimeMillis Hadoop_NameNode_GcTimeMillis
+# TYPE Hadoop_NameNode_GcTimeMillis counter
+Hadoop_NameNode_GcTimeMillis{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 23133
+# HELP Hadoop_NameNode_GcTimePercentage Hadoop_NameNode_GcTimePercentage
+# TYPE Hadoop_NameNode_GcTimePercentage counter
+Hadoop_NameNode_GcTimePercentage{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_GcTotalExtraSleepTime Hadoop_NameNode_GcTotalExtraSleepTime
+# TYPE Hadoop_NameNode_GcTotalExtraSleepTime counter
+Hadoop_NameNode_GcTotalExtraSleepTime{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 2318
+# HELP Hadoop_NameNode_GenerateEDEKTimeAvgTime Hadoop_NameNode_GenerateEDEKTimeAvgTime
+# TYPE Hadoop_NameNode_GenerateEDEKTimeAvgTime counter
+Hadoop_NameNode_GenerateEDEKTimeAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_GenerateEDEKTimeNumOps Hadoop_NameNode_GenerateEDEKTimeNumOps
+# TYPE Hadoop_NameNode_GenerateEDEKTimeNumOps counter
+Hadoop_NameNode_GenerateEDEKTimeNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_GetAdditionalDatanodeOps Hadoop_NameNode_GetAdditionalDatanodeOps
+# TYPE Hadoop_NameNode_GetAdditionalDatanodeOps counter
+Hadoop_NameNode_GetAdditionalDatanodeOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_GetAliasMapAvgTime Hadoop_NameNode_GetAliasMapAvgTime
+# TYPE Hadoop_NameNode_GetAliasMapAvgTime counter
+Hadoop_NameNode_GetAliasMapAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_GetAliasMapNumOps Hadoop_NameNode_GetAliasMapNumOps
+# TYPE Hadoop_NameNode_GetAliasMapNumOps counter
+Hadoop_NameNode_GetAliasMapNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_GetBlockLocations Hadoop_NameNode_GetBlockLocations
+# TYPE Hadoop_NameNode_GetBlockLocations counter
+Hadoop_NameNode_GetBlockLocations{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 8055
+# HELP Hadoop_NameNode_GetBlockLocationsAvgTime Hadoop_NameNode_GetBlockLocationsAvgTime
+# TYPE Hadoop_NameNode_GetBlockLocationsAvgTime counter
+Hadoop_NameNode_GetBlockLocationsAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_GetBlockLocationsNumOps Hadoop_NameNode_GetBlockLocationsNumOps
+# TYPE Hadoop_NameNode_GetBlockLocationsNumOps counter
+Hadoop_NameNode_GetBlockLocationsNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 8043
+# HELP Hadoop_NameNode_GetContentSummaryAvgTime Hadoop_NameNode_GetContentSummaryAvgTime
+# TYPE Hadoop_NameNode_GetContentSummaryAvgTime counter
+Hadoop_NameNode_GetContentSummaryAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_GetContentSummaryNumOps Hadoop_NameNode_GetContentSummaryNumOps
+# TYPE Hadoop_NameNode_GetContentSummaryNumOps counter
+Hadoop_NameNode_GetContentSummaryNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 938
+# HELP Hadoop_NameNode_GetEditAvgTime Hadoop_NameNode_GetEditAvgTime
+# TYPE Hadoop_NameNode_GetEditAvgTime counter
+Hadoop_NameNode_GetEditAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 1
+# HELP Hadoop_NameNode_GetEditLogManifestAvgTime Hadoop_NameNode_GetEditLogManifestAvgTime
+# TYPE Hadoop_NameNode_GetEditLogManifestAvgTime counter
+Hadoop_NameNode_GetEditLogManifestAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 5
+# HELP Hadoop_NameNode_GetEditLogManifestNumOps Hadoop_NameNode_GetEditLogManifestNumOps
+# TYPE Hadoop_NameNode_GetEditLogManifestNumOps counter
+Hadoop_NameNode_GetEditLogManifestNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 1487
+# HELP Hadoop_NameNode_GetEditNumOps Hadoop_NameNode_GetEditNumOps
+# TYPE Hadoop_NameNode_GetEditNumOps counter
+Hadoop_NameNode_GetEditNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 1487
+# HELP Hadoop_NameNode_GetFileInfoAvgTime Hadoop_NameNode_GetFileInfoAvgTime
+# TYPE Hadoop_NameNode_GetFileInfoAvgTime counter
+Hadoop_NameNode_GetFileInfoAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_GetFileInfoNumOps Hadoop_NameNode_GetFileInfoNumOps
+# TYPE Hadoop_NameNode_GetFileInfoNumOps counter
+Hadoop_NameNode_GetFileInfoNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 129886
+# HELP Hadoop_NameNode_GetGroupsAvgTime Hadoop_NameNode_GetGroupsAvgTime
+# TYPE Hadoop_NameNode_GetGroupsAvgTime counter
+Hadoop_NameNode_GetGroupsAvgTime{Context="ugi",Hostname="localhost"} 0
+# HELP Hadoop_NameNode_GetGroupsNumOps Hadoop_NameNode_GetGroupsNumOps
+# TYPE Hadoop_NameNode_GetGroupsNumOps counter
+Hadoop_NameNode_GetGroupsNumOps{Context="ugi",Hostname="localhost"} 12188
+# HELP Hadoop_NameNode_GetImageAvgTime Hadoop_NameNode_GetImageAvgTime
+# TYPE Hadoop_NameNode_GetImageAvgTime counter
+Hadoop_NameNode_GetImageAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 2
+# HELP Hadoop_NameNode_GetImageNumOps Hadoop_NameNode_GetImageNumOps
+# TYPE Hadoop_NameNode_GetImageNumOps counter
+Hadoop_NameNode_GetImageNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 2
+# HELP Hadoop_NameNode_GetLinkTargetOps Hadoop_NameNode_GetLinkTargetOps
+# TYPE Hadoop_NameNode_GetLinkTargetOps counter
+Hadoop_NameNode_GetLinkTargetOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_GetListingAvgTime Hadoop_NameNode_GetListingAvgTime
+# TYPE Hadoop_NameNode_GetListingAvgTime counter
+Hadoop_NameNode_GetListingAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0.25
+# HELP Hadoop_NameNode_GetListingNumOps Hadoop_NameNode_GetListingNumOps
+# TYPE Hadoop_NameNode_GetListingNumOps counter
+Hadoop_NameNode_GetListingNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 470674
+# HELP Hadoop_NameNode_GetListingOps Hadoop_NameNode_GetListingOps
+# TYPE Hadoop_NameNode_GetListingOps counter
+Hadoop_NameNode_GetListingOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 446686
+# HELP Hadoop_NameNode_GetServerDefaultsAvgTime Hadoop_NameNode_GetServerDefaultsAvgTime
+# TYPE Hadoop_NameNode_GetServerDefaultsAvgTime counter
+Hadoop_NameNode_GetServerDefaultsAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_GetServerDefaultsNumOps Hadoop_NameNode_GetServerDefaultsNumOps
+# TYPE Hadoop_NameNode_GetServerDefaultsNumOps counter
+Hadoop_NameNode_GetServerDefaultsNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 3059
+# HELP Hadoop_NameNode_GetTransactionIdAvgTime Hadoop_NameNode_GetTransactionIdAvgTime
+# TYPE Hadoop_NameNode_GetTransactionIdAvgTime counter
+Hadoop_NameNode_GetTransactionIdAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_GetTransactionIdNumOps Hadoop_NameNode_GetTransactionIdNumOps
+# TYPE Hadoop_NameNode_GetTransactionIdNumOps counter
+Hadoop_NameNode_GetTransactionIdNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 89166
+# HELP Hadoop_NameNode_HighestPriorityLowRedundancyECBlocks Hadoop_NameNode_HighestPriorityLowRedundancyECBlocks
+# TYPE Hadoop_NameNode_HighestPriorityLowRedundancyECBlocks counter
+Hadoop_NameNode_HighestPriorityLowRedundancyECBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_HighestPriorityLowRedundancyECBlocks0 Hadoop_NameNode_HighestPriorityLowRedundancyECBlocks0
+# TYPE Hadoop_NameNode_HighestPriorityLowRedundancyECBlocks0 counter
+Hadoop_NameNode_HighestPriorityLowRedundancyECBlocks0 0
+# HELP Hadoop_NameNode_HighestPriorityLowRedundancyReplicatedBlocks Hadoop_NameNode_HighestPriorityLowRedundancyReplicatedBlocks
+# TYPE Hadoop_NameNode_HighestPriorityLowRedundancyReplicatedBlocks counter
+Hadoop_NameNode_HighestPriorityLowRedundancyReplicatedBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 1296
+# HELP Hadoop_NameNode_HighestPriorityLowRedundancyReplicatedBlocks0 Hadoop_NameNode_HighestPriorityLowRedundancyReplicatedBlocks0
+# TYPE Hadoop_NameNode_HighestPriorityLowRedundancyReplicatedBlocks0 counter
+Hadoop_NameNode_HighestPriorityLowRedundancyReplicatedBlocks0 1296
+# HELP Hadoop_NameNode_HostAndPort Hadoop_NameNode_HostAndPort
+# TYPE Hadoop_NameNode_HostAndPort counter
+Hadoop_NameNode_HostAndPort 0
+# HELP Hadoop_NameNode_IsRollingUpgradeAvgTime Hadoop_NameNode_IsRollingUpgradeAvgTime
+# TYPE Hadoop_NameNode_IsRollingUpgradeAvgTime counter
+Hadoop_NameNode_IsRollingUpgradeAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_IsRollingUpgradeNumOps Hadoop_NameNode_IsRollingUpgradeNumOps
+# TYPE Hadoop_NameNode_IsRollingUpgradeNumOps counter
+Hadoop_NameNode_IsRollingUpgradeNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 1487
+# HELP Hadoop_NameNode_JournalTransactionInfo Hadoop_NameNode_JournalTransactionInfo
+# TYPE Hadoop_NameNode_JournalTransactionInfo counter
+Hadoop_NameNode_JournalTransactionInfo 0
+# HELP Hadoop_NameNode_LastCheckpointTime Hadoop_NameNode_LastCheckpointTime
+# TYPE Hadoop_NameNode_LastCheckpointTime counter
+Hadoop_NameNode_LastCheckpointTime{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_LastHATransitionTime Hadoop_NameNode_LastHATransitionTime
+# TYPE Hadoop_NameNode_LastHATransitionTime counter
+Hadoop_NameNode_LastHATransitionTime 0
+# HELP Hadoop_NameNode_LastWrittenTransactionId Hadoop_NameNode_LastWrittenTransactionId
+# TYPE Hadoop_NameNode_LastWrittenTransactionId counter
+Hadoop_NameNode_LastWrittenTransactionId{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 161834
+# HELP Hadoop_NameNode_ListSnapshottableDirOps Hadoop_NameNode_ListSnapshottableDirOps
+# TYPE Hadoop_NameNode_ListSnapshottableDirOps counter
+Hadoop_NameNode_ListSnapshottableDirOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_LiveNodes Hadoop_NameNode_LiveNodes
+# TYPE Hadoop_NameNode_LiveNodes counter
+Hadoop_NameNode_LiveNodes 0
+# HELP Hadoop_NameNode_LoadingEditsCount Hadoop_NameNode_LoadingEditsCount
+# TYPE Hadoop_NameNode_LoadingEditsCount counter
+Hadoop_NameNode_LoadingEditsCount{Hostname="localhost"} 33
+# HELP Hadoop_NameNode_LoadingEditsElapsedTime Hadoop_NameNode_LoadingEditsElapsedTime
+# TYPE Hadoop_NameNode_LoadingEditsElapsedTime counter
+Hadoop_NameNode_LoadingEditsElapsedTime{Hostname="localhost"} 142
+# HELP Hadoop_NameNode_LoadingEditsPercentComplete Hadoop_NameNode_LoadingEditsPercentComplete
+# TYPE Hadoop_NameNode_LoadingEditsPercentComplete counter
+Hadoop_NameNode_LoadingEditsPercentComplete{Hostname="localhost"} 1
+# HELP Hadoop_NameNode_LoadingEditsTotal Hadoop_NameNode_LoadingEditsTotal
+# TYPE Hadoop_NameNode_LoadingEditsTotal counter
+Hadoop_NameNode_LoadingEditsTotal{Hostname="localhost"} 33
+# HELP Hadoop_NameNode_LoadingFsImageCount Hadoop_NameNode_LoadingFsImageCount
+# TYPE Hadoop_NameNode_LoadingFsImageCount counter
+Hadoop_NameNode_LoadingFsImageCount{Hostname="localhost"} 3494
+# HELP Hadoop_NameNode_LoadingFsImageElapsedTime Hadoop_NameNode_LoadingFsImageElapsedTime
+# TYPE Hadoop_NameNode_LoadingFsImageElapsedTime counter
+Hadoop_NameNode_LoadingFsImageElapsedTime{Hostname="localhost"} 411
+# HELP Hadoop_NameNode_LoadingFsImagePercentComplete Hadoop_NameNode_LoadingFsImagePercentComplete
+# TYPE Hadoop_NameNode_LoadingFsImagePercentComplete counter
+Hadoop_NameNode_LoadingFsImagePercentComplete{Hostname="localhost"} 1
+# HELP Hadoop_NameNode_LoadingFsImageTotal Hadoop_NameNode_LoadingFsImageTotal
+# TYPE Hadoop_NameNode_LoadingFsImageTotal counter
+Hadoop_NameNode_LoadingFsImageTotal{Hostname="localhost"} 3494
+# HELP Hadoop_NameNode_LockQueueLength Hadoop_NameNode_LockQueueLength
+# TYPE Hadoop_NameNode_LockQueueLength counter
+Hadoop_NameNode_LockQueueLength{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_LogError Hadoop_NameNode_LogError
+# TYPE Hadoop_NameNode_LogError counter
+Hadoop_NameNode_LogError{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_LogFatal Hadoop_NameNode_LogFatal
+# TYPE Hadoop_NameNode_LogFatal counter
+Hadoop_NameNode_LogFatal{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_LogInfo Hadoop_NameNode_LogInfo
+# TYPE Hadoop_NameNode_LogInfo counter
+Hadoop_NameNode_LogInfo{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 52075
+# HELP Hadoop_NameNode_LogWarn Hadoop_NameNode_LogWarn
+# TYPE Hadoop_NameNode_LogWarn counter
+Hadoop_NameNode_LogWarn{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 7
+# HELP Hadoop_NameNode_LoginFailureAvgTime Hadoop_NameNode_LoginFailureAvgTime
+# TYPE Hadoop_NameNode_LoginFailureAvgTime counter
+Hadoop_NameNode_LoginFailureAvgTime{Context="ugi",Hostname="localhost"} 0
+# HELP Hadoop_NameNode_LoginFailureNumOps Hadoop_NameNode_LoginFailureNumOps
+# TYPE Hadoop_NameNode_LoginFailureNumOps counter
+Hadoop_NameNode_LoginFailureNumOps{Context="ugi",Hostname="localhost"} 0
+# HELP Hadoop_NameNode_LoginSuccessAvgTime Hadoop_NameNode_LoginSuccessAvgTime
+# TYPE Hadoop_NameNode_LoginSuccessAvgTime counter
+Hadoop_NameNode_LoginSuccessAvgTime{Context="ugi",Hostname="localhost"} 4
+# HELP Hadoop_NameNode_LoginSuccessNumOps Hadoop_NameNode_LoginSuccessNumOps
+# TYPE Hadoop_NameNode_LoginSuccessNumOps counter
+Hadoop_NameNode_LoginSuccessNumOps{Context="ugi",Hostname="localhost"} 1
+# HELP Hadoop_NameNode_LowRedundancyBlocks Hadoop_NameNode_LowRedundancyBlocks
+# TYPE Hadoop_NameNode_LowRedundancyBlocks counter
+Hadoop_NameNode_LowRedundancyBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 1296
+# HELP Hadoop_NameNode_LowRedundancyBlocks0 Hadoop_NameNode_LowRedundancyBlocks0
+# TYPE Hadoop_NameNode_LowRedundancyBlocks0 counter
+Hadoop_NameNode_LowRedundancyBlocks0 1296
+# HELP Hadoop_NameNode_LowRedundancyECBlockGroups Hadoop_NameNode_LowRedundancyECBlockGroups
+# TYPE Hadoop_NameNode_LowRedundancyECBlockGroups counter
+Hadoop_NameNode_LowRedundancyECBlockGroups{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_LowRedundancyECBlockGroups0 Hadoop_NameNode_LowRedundancyECBlockGroups0
+# TYPE Hadoop_NameNode_LowRedundancyECBlockGroups0 counter
+Hadoop_NameNode_LowRedundancyECBlockGroups0 0
+# HELP Hadoop_NameNode_LowRedundancyReplicatedBlocks Hadoop_NameNode_LowRedundancyReplicatedBlocks
+# TYPE Hadoop_NameNode_LowRedundancyReplicatedBlocks counter
+Hadoop_NameNode_LowRedundancyReplicatedBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 1296
+# HELP Hadoop_NameNode_LowRedundancyReplicatedBlocks0 Hadoop_NameNode_LowRedundancyReplicatedBlocks0
+# TYPE Hadoop_NameNode_LowRedundancyReplicatedBlocks0 counter
+Hadoop_NameNode_LowRedundancyReplicatedBlocks0 1296
+# HELP Hadoop_NameNode_MaxObjects Hadoop_NameNode_MaxObjects
+# TYPE Hadoop_NameNode_MaxObjects counter
+Hadoop_NameNode_MaxObjects 0
+# HELP Hadoop_NameNode_MemHeapCommittedM Hadoop_NameNode_MemHeapCommittedM
+# TYPE Hadoop_NameNode_MemHeapCommittedM counter
+Hadoop_NameNode_MemHeapCommittedM{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 414
+# HELP Hadoop_NameNode_MemHeapMaxM Hadoop_NameNode_MemHeapMaxM
+# TYPE Hadoop_NameNode_MemHeapMaxM counter
+Hadoop_NameNode_MemHeapMaxM{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 3474
+# HELP Hadoop_NameNode_MemHeapUsedM Hadoop_NameNode_MemHeapUsedM
+# TYPE Hadoop_NameNode_MemHeapUsedM counter
+Hadoop_NameNode_MemHeapUsedM{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 94.39519
+# HELP Hadoop_NameNode_MemMaxM Hadoop_NameNode_MemMaxM
+# TYPE Hadoop_NameNode_MemMaxM counter
+Hadoop_NameNode_MemMaxM{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 3474
+# HELP Hadoop_NameNode_MemNonHeapCommittedM Hadoop_NameNode_MemNonHeapCommittedM
+# TYPE Hadoop_NameNode_MemNonHeapCommittedM counter
+Hadoop_NameNode_MemNonHeapCommittedM{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 101.83594
+# HELP Hadoop_NameNode_MemNonHeapMaxM Hadoop_NameNode_MemNonHeapMaxM
+# TYPE Hadoop_NameNode_MemNonHeapMaxM counter
+Hadoop_NameNode_MemNonHeapMaxM{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} -1
+# HELP Hadoop_NameNode_MemNonHeapUsedM Hadoop_NameNode_MemNonHeapUsedM
+# TYPE Hadoop_NameNode_MemNonHeapUsedM counter
+Hadoop_NameNode_MemNonHeapUsedM{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 99.22362
+# HELP Hadoop_NameNode_MillisSinceLastLoadedEdits Hadoop_NameNode_MillisSinceLastLoadedEdits
+# TYPE Hadoop_NameNode_MillisSinceLastLoadedEdits counter
+Hadoop_NameNode_MillisSinceLastLoadedEdits{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_MissingBlocks Hadoop_NameNode_MissingBlocks
+# TYPE Hadoop_NameNode_MissingBlocks counter
+Hadoop_NameNode_MissingBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_MissingECBlockGroups Hadoop_NameNode_MissingECBlockGroups
+# TYPE Hadoop_NameNode_MissingECBlockGroups counter
+Hadoop_NameNode_MissingECBlockGroups{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_MissingECBlockGroups0 Hadoop_NameNode_MissingECBlockGroups0
+# TYPE Hadoop_NameNode_MissingECBlockGroups0 counter
+Hadoop_NameNode_MissingECBlockGroups0 0
+# HELP Hadoop_NameNode_MissingReplOneBlocks Hadoop_NameNode_MissingReplOneBlocks
+# TYPE Hadoop_NameNode_MissingReplOneBlocks counter
+Hadoop_NameNode_MissingReplOneBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_MissingReplicatedBlocks Hadoop_NameNode_MissingReplicatedBlocks
+# TYPE Hadoop_NameNode_MissingReplicatedBlocks counter
+Hadoop_NameNode_MissingReplicatedBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_MissingReplicatedBlocks0 Hadoop_NameNode_MissingReplicatedBlocks0
+# TYPE Hadoop_NameNode_MissingReplicatedBlocks0 counter
+Hadoop_NameNode_MissingReplicatedBlocks0 0
+# HELP Hadoop_NameNode_MissingReplicationOneBlocks Hadoop_NameNode_MissingReplicationOneBlocks
+# TYPE Hadoop_NameNode_MissingReplicationOneBlocks counter
+Hadoop_NameNode_MissingReplicationOneBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_MissingReplicationOneBlocks0 Hadoop_NameNode_MissingReplicationOneBlocks0
+# TYPE Hadoop_NameNode_MissingReplicationOneBlocks0 counter
+Hadoop_NameNode_MissingReplicationOneBlocks0 0
+# HELP Hadoop_NameNode_MkdirsAvgTime Hadoop_NameNode_MkdirsAvgTime
+# TYPE Hadoop_NameNode_MkdirsAvgTime counter
+Hadoop_NameNode_MkdirsAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_MkdirsNumOps Hadoop_NameNode_MkdirsNumOps
+# TYPE Hadoop_NameNode_MkdirsNumOps counter
+Hadoop_NameNode_MkdirsNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 873
+# HELP Hadoop_NameNode_NNRole Hadoop_NameNode_NNRole
+# TYPE Hadoop_NameNode_NNRole counter
+Hadoop_NameNode_NNRole 0
+# HELP Hadoop_NameNode_NNStartedTimeInMillis Hadoop_NameNode_NNStartedTimeInMillis
+# TYPE Hadoop_NameNode_NNStartedTimeInMillis counter
+Hadoop_NameNode_NNStartedTimeInMillis 0
+# HELP Hadoop_NameNode_NameDirSize Hadoop_NameNode_NameDirSize
+# TYPE Hadoop_NameNode_NameDirSize counter
+Hadoop_NameNode_NameDirSize 0
+# HELP Hadoop_NameNode_NameDirStatuses Hadoop_NameNode_NameDirStatuses
+# TYPE Hadoop_NameNode_NameDirStatuses counter
+Hadoop_NameNode_NameDirStatuses 0
+# HELP Hadoop_NameNode_NameJournalStatus Hadoop_NameNode_NameJournalStatus
+# TYPE Hadoop_NameNode_NameJournalStatus counter
+Hadoop_NameNode_NameJournalStatus 0
+# HELP Hadoop_NameNode_NodeUsage Hadoop_NameNode_NodeUsage
+# TYPE Hadoop_NameNode_NodeUsage counter
+Hadoop_NameNode_NodeUsage 0
+# HELP Hadoop_NameNode_NonDfsUsedSpace Hadoop_NameNode_NonDfsUsedSpace
+# TYPE Hadoop_NameNode_NonDfsUsedSpace counter
+Hadoop_NameNode_NonDfsUsedSpace 0
+# HELP Hadoop_NameNode_NumActiveClients Hadoop_NameNode_NumActiveClients
+# TYPE Hadoop_NameNode_NumActiveClients counter
+Hadoop_NameNode_NumActiveClients{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 2
+# HELP Hadoop_NameNode_NumActiveSinks Hadoop_NameNode_NumActiveSinks
+# TYPE Hadoop_NameNode_NumActiveSinks counter
+Hadoop_NameNode_NumActiveSinks{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_NameNode_NumActiveSources Hadoop_NameNode_NumActiveSources
+# TYPE Hadoop_NameNode_NumActiveSources counter
+Hadoop_NameNode_NumActiveSources{Context="metricssystem",Hostname="localhost",sub="Stats"} 9
+# HELP Hadoop_NameNode_NumAllSinks Hadoop_NameNode_NumAllSinks
+# TYPE Hadoop_NameNode_NumAllSinks counter
+Hadoop_NameNode_NumAllSinks{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_NameNode_NumAllSources Hadoop_NameNode_NumAllSources
+# TYPE Hadoop_NameNode_NumAllSources counter
+Hadoop_NameNode_NumAllSources{Context="metricssystem",Hostname="localhost",sub="Stats"} 9
+# HELP Hadoop_NameNode_NumDeadDataNodes Hadoop_NameNode_NumDeadDataNodes
+# TYPE Hadoop_NameNode_NumDeadDataNodes counter
+Hadoop_NameNode_NumDeadDataNodes{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_NumDeadDataNodes0 Hadoop_NameNode_NumDeadDataNodes0
+# TYPE Hadoop_NameNode_NumDeadDataNodes0 counter
+Hadoop_NameNode_NumDeadDataNodes0 0
+# HELP Hadoop_NameNode_NumDecomDeadDataNodes Hadoop_NameNode_NumDecomDeadDataNodes
+# TYPE Hadoop_NameNode_NumDecomDeadDataNodes counter
+Hadoop_NameNode_NumDecomDeadDataNodes{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_NumDecomDeadDataNodes0 Hadoop_NameNode_NumDecomDeadDataNodes0
+# TYPE Hadoop_NameNode_NumDecomDeadDataNodes0 counter
+Hadoop_NameNode_NumDecomDeadDataNodes0 0
+# HELP Hadoop_NameNode_NumDecomLiveDataNodes Hadoop_NameNode_NumDecomLiveDataNodes
+# TYPE Hadoop_NameNode_NumDecomLiveDataNodes counter
+Hadoop_NameNode_NumDecomLiveDataNodes{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_NumDecomLiveDataNodes0 Hadoop_NameNode_NumDecomLiveDataNodes0
+# TYPE Hadoop_NameNode_NumDecomLiveDataNodes0 counter
+Hadoop_NameNode_NumDecomLiveDataNodes0 0
+# HELP Hadoop_NameNode_NumDecommissioningDataNodes Hadoop_NameNode_NumDecommissioningDataNodes
+# TYPE Hadoop_NameNode_NumDecommissioningDataNodes counter
+Hadoop_NameNode_NumDecommissioningDataNodes{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_NumDecommissioningDataNodes0 Hadoop_NameNode_NumDecommissioningDataNodes0
+# TYPE Hadoop_NameNode_NumDecommissioningDataNodes0 counter
+Hadoop_NameNode_NumDecommissioningDataNodes0 0
+# HELP Hadoop_NameNode_NumDroppedConnections Hadoop_NameNode_NumDroppedConnections
+# TYPE Hadoop_NameNode_NumDroppedConnections counter
+Hadoop_NameNode_NumDroppedConnections{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_NumEditLogLoadedAvgCount Hadoop_NameNode_NumEditLogLoadedAvgCount
+# TYPE Hadoop_NameNode_NumEditLogLoadedAvgCount counter
+Hadoop_NameNode_NumEditLogLoadedAvgCount{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_NumEditLogLoadedNumOps Hadoop_NameNode_NumEditLogLoadedNumOps
+# TYPE Hadoop_NameNode_NumEditLogLoadedNumOps counter
+Hadoop_NameNode_NumEditLogLoadedNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_NumEncryptionZones Hadoop_NameNode_NumEncryptionZones
+# TYPE Hadoop_NameNode_NumEncryptionZones counter
+Hadoop_NameNode_NumEncryptionZones{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_NumEncryptionZones0 Hadoop_NameNode_NumEncryptionZones0
+# TYPE Hadoop_NameNode_NumEncryptionZones0 counter
+Hadoop_NameNode_NumEncryptionZones0 0
+# HELP Hadoop_NameNode_NumEnteringMaintenanceDataNodes Hadoop_NameNode_NumEnteringMaintenanceDataNodes
+# TYPE Hadoop_NameNode_NumEnteringMaintenanceDataNodes counter
+Hadoop_NameNode_NumEnteringMaintenanceDataNodes{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_NumEnteringMaintenanceDataNodes0 Hadoop_NameNode_NumEnteringMaintenanceDataNodes0
+# TYPE Hadoop_NameNode_NumEnteringMaintenanceDataNodes0 counter
+Hadoop_NameNode_NumEnteringMaintenanceDataNodes0 0
+# HELP Hadoop_NameNode_NumFilesUnderConstruction Hadoop_NameNode_NumFilesUnderConstruction
+# TYPE Hadoop_NameNode_NumFilesUnderConstruction counter
+Hadoop_NameNode_NumFilesUnderConstruction{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 3
+# HELP Hadoop_NameNode_NumInMaintenanceDeadDataNodes Hadoop_NameNode_NumInMaintenanceDeadDataNodes
+# TYPE Hadoop_NameNode_NumInMaintenanceDeadDataNodes counter
+Hadoop_NameNode_NumInMaintenanceDeadDataNodes{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_NumInMaintenanceDeadDataNodes0 Hadoop_NameNode_NumInMaintenanceDeadDataNodes0
+# TYPE Hadoop_NameNode_NumInMaintenanceDeadDataNodes0 counter
+Hadoop_NameNode_NumInMaintenanceDeadDataNodes0 0
+# HELP Hadoop_NameNode_NumInMaintenanceLiveDataNodes Hadoop_NameNode_NumInMaintenanceLiveDataNodes
+# TYPE Hadoop_NameNode_NumInMaintenanceLiveDataNodes counter
+Hadoop_NameNode_NumInMaintenanceLiveDataNodes{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_NumInMaintenanceLiveDataNodes0 Hadoop_NameNode_NumInMaintenanceLiveDataNodes0
+# TYPE Hadoop_NameNode_NumInMaintenanceLiveDataNodes0 counter
+Hadoop_NameNode_NumInMaintenanceLiveDataNodes0 0
+# HELP Hadoop_NameNode_NumInServiceLiveDataNodes Hadoop_NameNode_NumInServiceLiveDataNodes
+# TYPE Hadoop_NameNode_NumInServiceLiveDataNodes counter
+Hadoop_NameNode_NumInServiceLiveDataNodes{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 1
+# HELP Hadoop_NameNode_NumInServiceLiveDataNodes0 Hadoop_NameNode_NumInServiceLiveDataNodes0
+# TYPE Hadoop_NameNode_NumInServiceLiveDataNodes0 counter
+Hadoop_NameNode_NumInServiceLiveDataNodes0 1
+# HELP Hadoop_NameNode_NumLiveDataNodes Hadoop_NameNode_NumLiveDataNodes
+# TYPE Hadoop_NameNode_NumLiveDataNodes counter
+Hadoop_NameNode_NumLiveDataNodes{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 1
+# HELP Hadoop_NameNode_NumLiveDataNodes0 Hadoop_NameNode_NumLiveDataNodes0
+# TYPE Hadoop_NameNode_NumLiveDataNodes0 counter
+Hadoop_NameNode_NumLiveDataNodes0 1
+# HELP Hadoop_NameNode_NumOpenConnections Hadoop_NameNode_NumOpenConnections
+# TYPE Hadoop_NameNode_NumOpenConnections counter
+Hadoop_NameNode_NumOpenConnections{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 1
+# HELP Hadoop_NameNode_NumStaleDataNodes Hadoop_NameNode_NumStaleDataNodes
+# TYPE Hadoop_NameNode_NumStaleDataNodes counter
+Hadoop_NameNode_NumStaleDataNodes 0
+# HELP Hadoop_NameNode_NumStaleStorages Hadoop_NameNode_NumStaleStorages
+# TYPE Hadoop_NameNode_NumStaleStorages counter
+Hadoop_NameNode_NumStaleStorages{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_NumStaleStorages0 Hadoop_NameNode_NumStaleStorages0
+# TYPE Hadoop_NameNode_NumStaleStorages0 counter
+Hadoop_NameNode_NumStaleStorages0 0
+# HELP Hadoop_NameNode_NumTimedOutPendingReconstructions Hadoop_NameNode_NumTimedOutPendingReconstructions
+# TYPE Hadoop_NameNode_NumTimedOutPendingReconstructions counter
+Hadoop_NameNode_NumTimedOutPendingReconstructions{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_NumTimesReReplicationNotScheduled Hadoop_NameNode_NumTimesReReplicationNotScheduled
+# TYPE Hadoop_NameNode_NumTimesReReplicationNotScheduled counter
+Hadoop_NameNode_NumTimesReReplicationNotScheduled{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_NumberOfMissingBlocks Hadoop_NameNode_NumberOfMissingBlocks
+# TYPE Hadoop_NameNode_NumberOfMissingBlocks counter
+Hadoop_NameNode_NumberOfMissingBlocks 0
+# HELP Hadoop_NameNode_NumberOfMissingBlocksWithReplicationFactorOne Hadoop_NameNode_NumberOfMissingBlocksWithReplicationFactorOne
+# TYPE Hadoop_NameNode_NumberOfMissingBlocksWithReplicationFactorOne counter
+Hadoop_NameNode_NumberOfMissingBlocksWithReplicationFactorOne 0
+# HELP Hadoop_NameNode_NumberOfSnapshottableDirs Hadoop_NameNode_NumberOfSnapshottableDirs
+# TYPE Hadoop_NameNode_NumberOfSnapshottableDirs counter
+Hadoop_NameNode_NumberOfSnapshottableDirs 0
+# HELP Hadoop_NameNode_PendingDataNodeMessageCount Hadoop_NameNode_PendingDataNodeMessageCount
+# TYPE Hadoop_NameNode_PendingDataNodeMessageCount counter
+Hadoop_NameNode_PendingDataNodeMessageCount{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_PendingDeleteBlocksCount Hadoop_NameNode_PendingDeleteBlocksCount
+# TYPE Hadoop_NameNode_PendingDeleteBlocksCount counter
+Hadoop_NameNode_PendingDeleteBlocksCount{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_PendingDeletionBlocks Hadoop_NameNode_PendingDeletionBlocks
+# TYPE Hadoop_NameNode_PendingDeletionBlocks counter
+Hadoop_NameNode_PendingDeletionBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_PendingDeletionBlocks0 Hadoop_NameNode_PendingDeletionBlocks0
+# TYPE Hadoop_NameNode_PendingDeletionBlocks0 counter
+Hadoop_NameNode_PendingDeletionBlocks0 0
+# HELP Hadoop_NameNode_PendingDeletionECBlocks Hadoop_NameNode_PendingDeletionECBlocks
+# TYPE Hadoop_NameNode_PendingDeletionECBlocks counter
+Hadoop_NameNode_PendingDeletionECBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_PendingDeletionECBlocks0 Hadoop_NameNode_PendingDeletionECBlocks0
+# TYPE Hadoop_NameNode_PendingDeletionECBlocks0 counter
+Hadoop_NameNode_PendingDeletionECBlocks0 0
+# HELP Hadoop_NameNode_PendingDeletionReplicatedBlocks Hadoop_NameNode_PendingDeletionReplicatedBlocks
+# TYPE Hadoop_NameNode_PendingDeletionReplicatedBlocks counter
+Hadoop_NameNode_PendingDeletionReplicatedBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_PendingDeletionReplicatedBlocks0 Hadoop_NameNode_PendingDeletionReplicatedBlocks0
+# TYPE Hadoop_NameNode_PendingDeletionReplicatedBlocks0 counter
+Hadoop_NameNode_PendingDeletionReplicatedBlocks0 0
+# HELP Hadoop_NameNode_PendingEditsCount Hadoop_NameNode_PendingEditsCount
+# TYPE Hadoop_NameNode_PendingEditsCount counter
+Hadoop_NameNode_PendingEditsCount{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_PendingReconstructionBlocks Hadoop_NameNode_PendingReconstructionBlocks
+# TYPE Hadoop_NameNode_PendingReconstructionBlocks counter
+Hadoop_NameNode_PendingReconstructionBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_PendingReconstructionBlocks0 Hadoop_NameNode_PendingReconstructionBlocks0
+# TYPE Hadoop_NameNode_PendingReconstructionBlocks0 counter
+Hadoop_NameNode_PendingReconstructionBlocks0 0
+# HELP Hadoop_NameNode_PendingReplicationBlocks Hadoop_NameNode_PendingReplicationBlocks
+# TYPE Hadoop_NameNode_PendingReplicationBlocks counter
+Hadoop_NameNode_PendingReplicationBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_PendingReplicationBlocks0 Hadoop_NameNode_PendingReplicationBlocks0
+# TYPE Hadoop_NameNode_PendingReplicationBlocks0 counter
+Hadoop_NameNode_PendingReplicationBlocks0 0
+# HELP Hadoop_NameNode_PercentBlockPoolUsed Hadoop_NameNode_PercentBlockPoolUsed
+# TYPE Hadoop_NameNode_PercentBlockPoolUsed counter
+Hadoop_NameNode_PercentBlockPoolUsed 0.026827335
+# HELP Hadoop_NameNode_PercentComplete Hadoop_NameNode_PercentComplete
+# TYPE Hadoop_NameNode_PercentComplete counter
+Hadoop_NameNode_PercentComplete{Hostname="localhost"} 1
+# HELP Hadoop_NameNode_PercentRemaining Hadoop_NameNode_PercentRemaining
+# TYPE Hadoop_NameNode_PercentRemaining counter
+Hadoop_NameNode_PercentRemaining 67.49169
+# HELP Hadoop_NameNode_PercentUsed Hadoop_NameNode_PercentUsed
+# TYPE Hadoop_NameNode_PercentUsed counter
+Hadoop_NameNode_PercentUsed 0.026827335
+# HELP Hadoop_NameNode_PostponedMisreplicatedBlocks Hadoop_NameNode_PostponedMisreplicatedBlocks
+# TYPE Hadoop_NameNode_PostponedMisreplicatedBlocks counter
+Hadoop_NameNode_PostponedMisreplicatedBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_ProvidedCapacity Hadoop_NameNode_ProvidedCapacity
+# TYPE Hadoop_NameNode_ProvidedCapacity counter
+Hadoop_NameNode_ProvidedCapacity 0
+# HELP Hadoop_NameNode_ProvidedCapacityTotal Hadoop_NameNode_ProvidedCapacityTotal
+# TYPE Hadoop_NameNode_ProvidedCapacityTotal counter
+Hadoop_NameNode_ProvidedCapacityTotal{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_ProvidedCapacityTotal0 Hadoop_NameNode_ProvidedCapacityTotal0
+# TYPE Hadoop_NameNode_ProvidedCapacityTotal0 counter
+Hadoop_NameNode_ProvidedCapacityTotal0 0
+# HELP Hadoop_NameNode_PublishAvgTime Hadoop_NameNode_PublishAvgTime
+# TYPE Hadoop_NameNode_PublishAvgTime counter
+Hadoop_NameNode_PublishAvgTime{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_NameNode_PublishNumOps Hadoop_NameNode_PublishNumOps
+# TYPE Hadoop_NameNode_PublishNumOps counter
+Hadoop_NameNode_PublishNumOps{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_NameNode_PutImageAvgTime Hadoop_NameNode_PutImageAvgTime
+# TYPE Hadoop_NameNode_PutImageAvgTime counter
+Hadoop_NameNode_PutImageAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 6
+# HELP Hadoop_NameNode_PutImageNumOps Hadoop_NameNode_PutImageNumOps
+# TYPE Hadoop_NameNode_PutImageNumOps counter
+Hadoop_NameNode_PutImageNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 1486
+# HELP Hadoop_NameNode_ReadLockLongHoldCount Hadoop_NameNode_ReadLockLongHoldCount
+# TYPE Hadoop_NameNode_ReadLockLongHoldCount counter
+Hadoop_NameNode_ReadLockLongHoldCount{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_ReceivedBytes Hadoop_NameNode_ReceivedBytes
+# TYPE Hadoop_NameNode_ReceivedBytes counter
+Hadoop_NameNode_ReceivedBytes{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 9.59771896e+08
+# HELP Hadoop_NameNode_RecoverLeaseAvgTime Hadoop_NameNode_RecoverLeaseAvgTime
+# TYPE Hadoop_NameNode_RecoverLeaseAvgTime counter
+Hadoop_NameNode_RecoverLeaseAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_RecoverLeaseNumOps Hadoop_NameNode_RecoverLeaseNumOps
+# TYPE Hadoop_NameNode_RecoverLeaseNumOps counter
+Hadoop_NameNode_RecoverLeaseNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 8
+# HELP Hadoop_NameNode_RegisterDatanodeAvgTime Hadoop_NameNode_RegisterDatanodeAvgTime
+# TYPE Hadoop_NameNode_RegisterDatanodeAvgTime counter
+Hadoop_NameNode_RegisterDatanodeAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 35
+# HELP Hadoop_NameNode_RegisterDatanodeNumOps Hadoop_NameNode_RegisterDatanodeNumOps
+# TYPE Hadoop_NameNode_RegisterDatanodeNumOps counter
+Hadoop_NameNode_RegisterDatanodeNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 1
+# HELP Hadoop_NameNode_RenameAvgTime Hadoop_NameNode_RenameAvgTime
+# TYPE Hadoop_NameNode_RenameAvgTime counter
+Hadoop_NameNode_RenameAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_RenameNumOps Hadoop_NameNode_RenameNumOps
+# TYPE Hadoop_NameNode_RenameNumOps counter
+Hadoop_NameNode_RenameNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 16606
+# HELP Hadoop_NameNode_RenameSnapshotOps Hadoop_NameNode_RenameSnapshotOps
+# TYPE Hadoop_NameNode_RenameSnapshotOps counter
+Hadoop_NameNode_RenameSnapshotOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_RenewLeaseAvgTime Hadoop_NameNode_RenewLeaseAvgTime
+# TYPE Hadoop_NameNode_RenewLeaseAvgTime counter
+Hadoop_NameNode_RenewLeaseAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_RenewLeaseNumOps Hadoop_NameNode_RenewLeaseNumOps
+# TYPE Hadoop_NameNode_RenewLeaseNumOps counter
+Hadoop_NameNode_RenewLeaseNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 356627
+# HELP Hadoop_NameNode_RenewalFailures Hadoop_NameNode_RenewalFailures
+# TYPE Hadoop_NameNode_RenewalFailures counter
+Hadoop_NameNode_RenewalFailures{Context="ugi",Hostname="localhost"} 0
+# HELP Hadoop_NameNode_RenewalFailuresTotal Hadoop_NameNode_RenewalFailuresTotal
+# TYPE Hadoop_NameNode_RenewalFailuresTotal counter
+Hadoop_NameNode_RenewalFailuresTotal{Context="ugi",Hostname="localhost"} 0
+# HELP Hadoop_NameNode_ResourceCheckTimeAvgTime Hadoop_NameNode_ResourceCheckTimeAvgTime
+# TYPE Hadoop_NameNode_ResourceCheckTimeAvgTime counter
+Hadoop_NameNode_ResourceCheckTimeAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0.08823529411764706
+# HELP Hadoop_NameNode_ResourceCheckTimeNumOps Hadoop_NameNode_ResourceCheckTimeNumOps
+# TYPE Hadoop_NameNode_ResourceCheckTimeNumOps counter
+Hadoop_NameNode_ResourceCheckTimeNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 1.070053e+06
+# HELP Hadoop_NameNode_RollEditLogAvgTime Hadoop_NameNode_RollEditLogAvgTime
+# TYPE Hadoop_NameNode_RollEditLogAvgTime counter
+Hadoop_NameNode_RollEditLogAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 27
+# HELP Hadoop_NameNode_RollEditLogNumOps Hadoop_NameNode_RollEditLogNumOps
+# TYPE Hadoop_NameNode_RollEditLogNumOps counter
+Hadoop_NameNode_RollEditLogNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 1487
+# HELP Hadoop_NameNode_RollingUpgradeStatus Hadoop_NameNode_RollingUpgradeStatus
+# TYPE Hadoop_NameNode_RollingUpgradeStatus counter
+Hadoop_NameNode_RollingUpgradeStatus 0
+# HELP Hadoop_NameNode_RpcAuthenticationFailures Hadoop_NameNode_RpcAuthenticationFailures
+# TYPE Hadoop_NameNode_RpcAuthenticationFailures counter
+Hadoop_NameNode_RpcAuthenticationFailures{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_RpcAuthenticationSuccesses Hadoop_NameNode_RpcAuthenticationSuccesses
+# TYPE Hadoop_NameNode_RpcAuthenticationSuccesses counter
+Hadoop_NameNode_RpcAuthenticationSuccesses{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_RpcAuthorizationFailures Hadoop_NameNode_RpcAuthorizationFailures
+# TYPE Hadoop_NameNode_RpcAuthorizationFailures counter
+Hadoop_NameNode_RpcAuthorizationFailures{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_RpcAuthorizationSuccesses Hadoop_NameNode_RpcAuthorizationSuccesses
+# TYPE Hadoop_NameNode_RpcAuthorizationSuccesses counter
+Hadoop_NameNode_RpcAuthorizationSuccesses{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 455660
+# HELP Hadoop_NameNode_RpcClientBackoff Hadoop_NameNode_RpcClientBackoff
+# TYPE Hadoop_NameNode_RpcClientBackoff counter
+Hadoop_NameNode_RpcClientBackoff{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_RpcLockWaitTimeAvgTime Hadoop_NameNode_RpcLockWaitTimeAvgTime
+# TYPE Hadoop_NameNode_RpcLockWaitTimeAvgTime counter
+Hadoop_NameNode_RpcLockWaitTimeAvgTime{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_RpcLockWaitTimeNumOps Hadoop_NameNode_RpcLockWaitTimeNumOps
+# TYPE Hadoop_NameNode_RpcLockWaitTimeNumOps counter
+Hadoop_NameNode_RpcLockWaitTimeNumOps{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 2.934091e+06
+# HELP Hadoop_NameNode_RpcProcessingTimeAvgTime Hadoop_NameNode_RpcProcessingTimeAvgTime
+# TYPE Hadoop_NameNode_RpcProcessingTimeAvgTime counter
+Hadoop_NameNode_RpcProcessingTimeAvgTime{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_RpcProcessingTimeNumOps Hadoop_NameNode_RpcProcessingTimeNumOps
+# TYPE Hadoop_NameNode_RpcProcessingTimeNumOps counter
+Hadoop_NameNode_RpcProcessingTimeNumOps{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 2.934091e+06
+# HELP Hadoop_NameNode_RpcQueueTimeAvgTime Hadoop_NameNode_RpcQueueTimeAvgTime
+# TYPE Hadoop_NameNode_RpcQueueTimeAvgTime counter
+Hadoop_NameNode_RpcQueueTimeAvgTime{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_RpcQueueTimeNumOps Hadoop_NameNode_RpcQueueTimeNumOps
+# TYPE Hadoop_NameNode_RpcQueueTimeNumOps counter
+Hadoop_NameNode_RpcQueueTimeNumOps{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 2.934091e+06
+# HELP Hadoop_NameNode_RpcSlowCalls Hadoop_NameNode_RpcSlowCalls
+# TYPE Hadoop_NameNode_RpcSlowCalls counter
+Hadoop_NameNode_RpcSlowCalls{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 0
+# HELP Hadoop_NameNode_SafeModeCount Hadoop_NameNode_SafeModeCount
+# TYPE Hadoop_NameNode_SafeModeCount counter
+Hadoop_NameNode_SafeModeCount{Hostname="localhost"} 1275
+# HELP Hadoop_NameNode_SafeModeElapsedTime Hadoop_NameNode_SafeModeElapsedTime
+# TYPE Hadoop_NameNode_SafeModeElapsedTime counter
+Hadoop_NameNode_SafeModeElapsedTime{Hostname="localhost"} 31688
+# HELP Hadoop_NameNode_SafeModePercentComplete Hadoop_NameNode_SafeModePercentComplete
+# TYPE Hadoop_NameNode_SafeModePercentComplete counter
+Hadoop_NameNode_SafeModePercentComplete{Hostname="localhost"} 1
+# HELP Hadoop_NameNode_SafeModeTime Hadoop_NameNode_SafeModeTime
+# TYPE Hadoop_NameNode_SafeModeTime counter
+Hadoop_NameNode_SafeModeTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 31678
+# HELP Hadoop_NameNode_SafeModeTotal Hadoop_NameNode_SafeModeTotal
+# TYPE Hadoop_NameNode_SafeModeTotal counter
+Hadoop_NameNode_SafeModeTotal{Hostname="localhost"} 1275
+# HELP Hadoop_NameNode_Safemode Hadoop_NameNode_Safemode
+# TYPE Hadoop_NameNode_Safemode counter
+Hadoop_NameNode_Safemode 0
+# HELP Hadoop_NameNode_SavingCheckpointCount Hadoop_NameNode_SavingCheckpointCount
+# TYPE Hadoop_NameNode_SavingCheckpointCount counter
+Hadoop_NameNode_SavingCheckpointCount{Hostname="localhost"} 0
+# HELP Hadoop_NameNode_SavingCheckpointElapsedTime Hadoop_NameNode_SavingCheckpointElapsedTime
+# TYPE Hadoop_NameNode_SavingCheckpointElapsedTime counter
+Hadoop_NameNode_SavingCheckpointElapsedTime{Hostname="localhost"} 287
+# HELP Hadoop_NameNode_SavingCheckpointPercentComplete Hadoop_NameNode_SavingCheckpointPercentComplete
+# TYPE Hadoop_NameNode_SavingCheckpointPercentComplete counter
+Hadoop_NameNode_SavingCheckpointPercentComplete{Hostname="localhost"} 1
+# HELP Hadoop_NameNode_SavingCheckpointTotal Hadoop_NameNode_SavingCheckpointTotal
+# TYPE Hadoop_NameNode_SavingCheckpointTotal counter
+Hadoop_NameNode_SavingCheckpointTotal{Hostname="localhost"} 0
+# HELP Hadoop_NameNode_ScheduledReplicationBlocks Hadoop_NameNode_ScheduledReplicationBlocks
+# TYPE Hadoop_NameNode_ScheduledReplicationBlocks counter
+Hadoop_NameNode_ScheduledReplicationBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_ScheduledReplicationBlocks0 Hadoop_NameNode_ScheduledReplicationBlocks0
+# TYPE Hadoop_NameNode_ScheduledReplicationBlocks0 counter
+Hadoop_NameNode_ScheduledReplicationBlocks0 0
+# HELP Hadoop_NameNode_SecurityEnabled Hadoop_NameNode_SecurityEnabled
+# TYPE Hadoop_NameNode_SecurityEnabled counter
+Hadoop_NameNode_SecurityEnabled 0
+# HELP Hadoop_NameNode_SendHeartbeatAvgTime Hadoop_NameNode_SendHeartbeatAvgTime
+# TYPE Hadoop_NameNode_SendHeartbeatAvgTime counter
+Hadoop_NameNode_SendHeartbeatAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_SendHeartbeatNumOps Hadoop_NameNode_SendHeartbeatNumOps
+# TYPE Hadoop_NameNode_SendHeartbeatNumOps counter
+Hadoop_NameNode_SendHeartbeatNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 1.783413e+06
+# HELP Hadoop_NameNode_SentBytes Hadoop_NameNode_SentBytes
+# TYPE Hadoop_NameNode_SentBytes counter
+Hadoop_NameNode_SentBytes{Context="rpc",Hostname="localhost",NumOpenConnectionsPerUser="{\"hadoop\":1}",port="9000",serverName="ClientNamenodeProtocol"} 9.70161435e+08
+# HELP Hadoop_NameNode_SetPermissionAvgTime Hadoop_NameNode_SetPermissionAvgTime
+# TYPE Hadoop_NameNode_SetPermissionAvgTime counter
+Hadoop_NameNode_SetPermissionAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_SetPermissionNumOps Hadoop_NameNode_SetPermissionNumOps
+# TYPE Hadoop_NameNode_SetPermissionNumOps counter
+Hadoop_NameNode_SetPermissionNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 3
+# HELP Hadoop_NameNode_SetSafeModeAvgTime Hadoop_NameNode_SetSafeModeAvgTime
+# TYPE Hadoop_NameNode_SetSafeModeAvgTime counter
+Hadoop_NameNode_SetSafeModeAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_SetSafeModeNumOps Hadoop_NameNode_SetSafeModeNumOps
+# TYPE Hadoop_NameNode_SetSafeModeNumOps counter
+Hadoop_NameNode_SetSafeModeNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 3
+# HELP Hadoop_NameNode_SetStoragePolicyAvgTime Hadoop_NameNode_SetStoragePolicyAvgTime
+# TYPE Hadoop_NameNode_SetStoragePolicyAvgTime counter
+Hadoop_NameNode_SetStoragePolicyAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_SetStoragePolicyNumOps Hadoop_NameNode_SetStoragePolicyNumOps
+# TYPE Hadoop_NameNode_SetStoragePolicyNumOps counter
+Hadoop_NameNode_SetStoragePolicyNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 1506
+# HELP Hadoop_NameNode_SetTimesAvgTime Hadoop_NameNode_SetTimesAvgTime
+# TYPE Hadoop_NameNode_SetTimesAvgTime counter
+Hadoop_NameNode_SetTimesAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_SetTimesNumOps Hadoop_NameNode_SetTimesNumOps
+# TYPE Hadoop_NameNode_SetTimesNumOps counter
+Hadoop_NameNode_SetTimesNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 9778
+# HELP Hadoop_NameNode_SlowDisksReport Hadoop_NameNode_SlowDisksReport
+# TYPE Hadoop_NameNode_SlowDisksReport counter
+Hadoop_NameNode_SlowDisksReport 0
+# HELP Hadoop_NameNode_SlowPeersReport Hadoop_NameNode_SlowPeersReport
+# TYPE Hadoop_NameNode_SlowPeersReport counter
+Hadoop_NameNode_SlowPeersReport 0
+# HELP Hadoop_NameNode_SnapshotAvgTime Hadoop_NameNode_SnapshotAvgTime
+# TYPE Hadoop_NameNode_SnapshotAvgTime counter
+Hadoop_NameNode_SnapshotAvgTime{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_NameNode_SnapshotDiffReportOps Hadoop_NameNode_SnapshotDiffReportOps
+# TYPE Hadoop_NameNode_SnapshotDiffReportOps counter
+Hadoop_NameNode_SnapshotDiffReportOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_SnapshotNumOps Hadoop_NameNode_SnapshotNumOps
+# TYPE Hadoop_NameNode_SnapshotNumOps counter
+Hadoop_NameNode_SnapshotNumOps{Context="metricssystem",Hostname="localhost",sub="Stats"} 0
+# HELP Hadoop_NameNode_SnapshotStats Hadoop_NameNode_SnapshotStats
+# TYPE Hadoop_NameNode_SnapshotStats counter
+Hadoop_NameNode_SnapshotStats 0
+# HELP Hadoop_NameNode_Snapshots Hadoop_NameNode_Snapshots
+# TYPE Hadoop_NameNode_Snapshots counter
+Hadoop_NameNode_Snapshots{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_Snapshots0 Hadoop_NameNode_Snapshots0
+# TYPE Hadoop_NameNode_Snapshots0 counter
+Hadoop_NameNode_Snapshots0 0
+# HELP Hadoop_NameNode_SnapshottableDirectories Hadoop_NameNode_SnapshottableDirectories
+# TYPE Hadoop_NameNode_SnapshottableDirectories counter
+Hadoop_NameNode_SnapshottableDirectories{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_SnapshottableDirectories0 Hadoop_NameNode_SnapshottableDirectories0
+# TYPE Hadoop_NameNode_SnapshottableDirectories0 counter
+Hadoop_NameNode_SnapshottableDirectories0 0
+# HELP Hadoop_NameNode_SoftwareVersion Hadoop_NameNode_SoftwareVersion
+# TYPE Hadoop_NameNode_SoftwareVersion counter
+Hadoop_NameNode_SoftwareVersion 0
+# HELP Hadoop_NameNode_StaleDataNodes Hadoop_NameNode_StaleDataNodes
+# TYPE Hadoop_NameNode_StaleDataNodes counter
+Hadoop_NameNode_StaleDataNodes{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_State Hadoop_NameNode_State
+# TYPE Hadoop_NameNode_State counter
+Hadoop_NameNode_State 0
+# HELP Hadoop_NameNode_StorageBlockReportAvgTime Hadoop_NameNode_StorageBlockReportAvgTime
+# TYPE Hadoop_NameNode_StorageBlockReportAvgTime counter
+Hadoop_NameNode_StorageBlockReportAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_StorageBlockReportNumOps Hadoop_NameNode_StorageBlockReportNumOps
+# TYPE Hadoop_NameNode_StorageBlockReportNumOps counter
+Hadoop_NameNode_StorageBlockReportNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 249
+# HELP Hadoop_NameNode_StorageTypeStats Hadoop_NameNode_StorageTypeStats
+# TYPE Hadoop_NameNode_StorageTypeStats counter
+Hadoop_NameNode_StorageTypeStats 0
+# HELP Hadoop_NameNode_SuccessfulReReplications Hadoop_NameNode_SuccessfulReReplications
+# TYPE Hadoop_NameNode_SuccessfulReReplications counter
+Hadoop_NameNode_SuccessfulReReplications{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_SyncsAvgTime Hadoop_NameNode_SyncsAvgTime
+# TYPE Hadoop_NameNode_SyncsAvgTime counter
+Hadoop_NameNode_SyncsAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0.7
+# HELP Hadoop_NameNode_SyncsNumOps Hadoop_NameNode_SyncsNumOps
+# TYPE Hadoop_NameNode_SyncsNumOps counter
+Hadoop_NameNode_SyncsNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 84804
+# HELP Hadoop_NameNode_Threads Hadoop_NameNode_Threads
+# TYPE Hadoop_NameNode_Threads counter
+Hadoop_NameNode_Threads 48
+# HELP Hadoop_NameNode_ThreadsBlocked Hadoop_NameNode_ThreadsBlocked
+# TYPE Hadoop_NameNode_ThreadsBlocked counter
+Hadoop_NameNode_ThreadsBlocked{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_ThreadsNew Hadoop_NameNode_ThreadsNew
+# TYPE Hadoop_NameNode_ThreadsNew counter
+Hadoop_NameNode_ThreadsNew{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_ThreadsRunnable Hadoop_NameNode_ThreadsRunnable
+# TYPE Hadoop_NameNode_ThreadsRunnable counter
+Hadoop_NameNode_ThreadsRunnable{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 9
+# HELP Hadoop_NameNode_ThreadsTerminated Hadoop_NameNode_ThreadsTerminated
+# TYPE Hadoop_NameNode_ThreadsTerminated counter
+Hadoop_NameNode_ThreadsTerminated{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_ThreadsTimedWaiting Hadoop_NameNode_ThreadsTimedWaiting
+# TYPE Hadoop_NameNode_ThreadsTimedWaiting counter
+Hadoop_NameNode_ThreadsTimedWaiting{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 31
+# HELP Hadoop_NameNode_ThreadsWaiting Hadoop_NameNode_ThreadsWaiting
+# TYPE Hadoop_NameNode_ThreadsWaiting counter
+Hadoop_NameNode_ThreadsWaiting{Context="jvm",Hostname="localhost",ProcessName="NameNode",SessionId=""} 5
+# HELP Hadoop_NameNode_TimeoutReReplications Hadoop_NameNode_TimeoutReReplications
+# TYPE Hadoop_NameNode_TimeoutReReplications counter
+Hadoop_NameNode_TimeoutReReplications{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_TopUserOpCounts Hadoop_NameNode_TopUserOpCounts
+# TYPE Hadoop_NameNode_TopUserOpCounts counter
+Hadoop_NameNode_TopUserOpCounts 0
+# HELP Hadoop_NameNode_Total Hadoop_NameNode_Total
+# TYPE Hadoop_NameNode_Total counter
+Hadoop_NameNode_Total 0
+# HELP Hadoop_NameNode_TotalBlocks Hadoop_NameNode_TotalBlocks
+# TYPE Hadoop_NameNode_TotalBlocks counter
+Hadoop_NameNode_TotalBlocks 1299
+# HELP Hadoop_NameNode_TotalECBlockGroups Hadoop_NameNode_TotalECBlockGroups
+# TYPE Hadoop_NameNode_TotalECBlockGroups counter
+Hadoop_NameNode_TotalECBlockGroups{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_TotalECBlockGroups0 Hadoop_NameNode_TotalECBlockGroups0
+# TYPE Hadoop_NameNode_TotalECBlockGroups0 counter
+Hadoop_NameNode_TotalECBlockGroups0 0
+# HELP Hadoop_NameNode_TotalFileOps Hadoop_NameNode_TotalFileOps
+# TYPE Hadoop_NameNode_TotalFileOps counter
+Hadoop_NameNode_TotalFileOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 635209
+# HELP Hadoop_NameNode_TotalLoad Hadoop_NameNode_TotalLoad
+# TYPE Hadoop_NameNode_TotalLoad counter
+Hadoop_NameNode_TotalLoad{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 6
+# HELP Hadoop_NameNode_TotalLoad0 Hadoop_NameNode_TotalLoad0
+# TYPE Hadoop_NameNode_TotalLoad0 counter
+Hadoop_NameNode_TotalLoad0 6
+# HELP Hadoop_NameNode_TotalReplicatedBlocks Hadoop_NameNode_TotalReplicatedBlocks
+# TYPE Hadoop_NameNode_TotalReplicatedBlocks counter
+Hadoop_NameNode_TotalReplicatedBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 1299
+# HELP Hadoop_NameNode_TotalReplicatedBlocks0 Hadoop_NameNode_TotalReplicatedBlocks0
+# TYPE Hadoop_NameNode_TotalReplicatedBlocks0 counter
+Hadoop_NameNode_TotalReplicatedBlocks0 1299
+# HELP Hadoop_NameNode_TotalSyncCount Hadoop_NameNode_TotalSyncCount
+# TYPE Hadoop_NameNode_TotalSyncCount counter
+Hadoop_NameNode_TotalSyncCount{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 3
+# HELP Hadoop_NameNode_TotalSyncCount0 Hadoop_NameNode_TotalSyncCount0
+# TYPE Hadoop_NameNode_TotalSyncCount0 counter
+Hadoop_NameNode_TotalSyncCount0 3
+# HELP Hadoop_NameNode_TotalSyncTimes Hadoop_NameNode_TotalSyncTimes
+# TYPE Hadoop_NameNode_TotalSyncTimes counter
+Hadoop_NameNode_TotalSyncTimes 0
+# HELP Hadoop_NameNode_TransactionsAvgTime Hadoop_NameNode_TransactionsAvgTime
+# TYPE Hadoop_NameNode_TransactionsAvgTime counter
+Hadoop_NameNode_TransactionsAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0.18181818181818182
+# HELP Hadoop_NameNode_TransactionsBatchedInSync Hadoop_NameNode_TransactionsBatchedInSync
+# TYPE Hadoop_NameNode_TransactionsBatchedInSync counter
+Hadoop_NameNode_TransactionsBatchedInSync{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 77030
+# HELP Hadoop_NameNode_TransactionsNumOps Hadoop_NameNode_TransactionsNumOps
+# TYPE Hadoop_NameNode_TransactionsNumOps counter
+Hadoop_NameNode_TransactionsNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 99008
+# HELP Hadoop_NameNode_TransactionsSinceLastCheckpoint Hadoop_NameNode_TransactionsSinceLastCheckpoint
+# TYPE Hadoop_NameNode_TransactionsSinceLastCheckpoint counter
+Hadoop_NameNode_TransactionsSinceLastCheckpoint{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 2
+# HELP Hadoop_NameNode_TransactionsSinceLastLogRoll Hadoop_NameNode_TransactionsSinceLastLogRoll
+# TYPE Hadoop_NameNode_TransactionsSinceLastLogRoll counter
+Hadoop_NameNode_TransactionsSinceLastLogRoll{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 2
+# HELP Hadoop_NameNode_UnderReplicatedBlocks Hadoop_NameNode_UnderReplicatedBlocks
+# TYPE Hadoop_NameNode_UnderReplicatedBlocks counter
+Hadoop_NameNode_UnderReplicatedBlocks{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 1296
+# HELP Hadoop_NameNode_UnderReplicatedBlocks0 Hadoop_NameNode_UnderReplicatedBlocks0
+# TYPE Hadoop_NameNode_UnderReplicatedBlocks0 counter
+Hadoop_NameNode_UnderReplicatedBlocks0 1296
+# HELP Hadoop_NameNode_UpgradeFinalized Hadoop_NameNode_UpgradeFinalized
+# TYPE Hadoop_NameNode_UpgradeFinalized counter
+Hadoop_NameNode_UpgradeFinalized 0
+# HELP Hadoop_NameNode_Used Hadoop_NameNode_Used
+# TYPE Hadoop_NameNode_Used counter
+Hadoop_NameNode_Used 1.2652544e+07
+# HELP Hadoop_NameNode_VerifyECWithTopologyResult Hadoop_NameNode_VerifyECWithTopologyResult
+# TYPE Hadoop_NameNode_VerifyECWithTopologyResult counter
+Hadoop_NameNode_VerifyECWithTopologyResult 0
+# HELP Hadoop_NameNode_Version Hadoop_NameNode_Version
+# TYPE Hadoop_NameNode_Version counter
+Hadoop_NameNode_Version 0
+# HELP Hadoop_NameNode_VersionRequestAvgTime Hadoop_NameNode_VersionRequestAvgTime
+# TYPE Hadoop_NameNode_VersionRequestAvgTime counter
+Hadoop_NameNode_VersionRequestAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 108
+# HELP Hadoop_NameNode_VersionRequestNumOps Hadoop_NameNode_VersionRequestNumOps
+# TYPE Hadoop_NameNode_VersionRequestNumOps counter
+Hadoop_NameNode_VersionRequestNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 1
+# HELP Hadoop_NameNode_VolumeFailuresTotal Hadoop_NameNode_VolumeFailuresTotal
+# TYPE Hadoop_NameNode_VolumeFailuresTotal counter
+Hadoop_NameNode_VolumeFailuresTotal{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_VolumeFailuresTotal0 Hadoop_NameNode_VolumeFailuresTotal0
+# TYPE Hadoop_NameNode_VolumeFailuresTotal0 counter
+Hadoop_NameNode_VolumeFailuresTotal0 0
+# HELP Hadoop_NameNode_WarmUpEDEKTimeAvgTime Hadoop_NameNode_WarmUpEDEKTimeAvgTime
+# TYPE Hadoop_NameNode_WarmUpEDEKTimeAvgTime counter
+Hadoop_NameNode_WarmUpEDEKTimeAvgTime{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_WarmUpEDEKTimeNumOps Hadoop_NameNode_WarmUpEDEKTimeNumOps
+# TYPE Hadoop_NameNode_WarmUpEDEKTimeNumOps counter
+Hadoop_NameNode_WarmUpEDEKTimeNumOps{Context="dfs",Hostname="localhost",ProcessName="NameNode",SessionId=""} 0
+# HELP Hadoop_NameNode_WriteLockLongHoldCount Hadoop_NameNode_WriteLockLongHoldCount
+# TYPE Hadoop_NameNode_WriteLockLongHoldCount counter
+Hadoop_NameNode_WriteLockLongHoldCount{Context="dfs",EnabledEcPolicies="RS-6-3-1024k",HAState="active",Hostname="localhost",TotalSyncTimes="6 "} 0
+# HELP Hadoop_NameNode_externalAvgTime Hadoop_NameNode_externalAvgTime
+# TYPE Hadoop_NameNode_externalAvgTime counter
+Hadoop_NameNode_externalAvgTime{Context="rpcdetailed",Hostname="localhost",port="9000"} 0
+# HELP Hadoop_NameNode_externalNumOps Hadoop_NameNode_externalNumOps
+# TYPE Hadoop_NameNode_externalNumOps counter
+Hadoop_NameNode_externalNumOps{Context="rpcdetailed",Hostname="localhost",port="9000"} 16
