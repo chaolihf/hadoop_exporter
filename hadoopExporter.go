@@ -20,8 +20,14 @@ import (
 
 type ExporterConfig struct {
 	ListenAddress string         `json:"listen"`
+	Codes         []CodeMap      `json:"codeMaps"`
 	Metrics       []MetricType   `json:"metrics"`
 	TargetServers []TargetServer `json:"servers"`
+}
+
+type CodeMap struct {
+	Code  string `json:"name"`
+	Value int    `json:"value"`
 }
 
 type MetricType struct {
@@ -93,6 +99,17 @@ func getAttributeValue(attrValue *jjson.JsonObject) float64 {
 	case reflect.Int32:
 		{
 			value = float64(attrValue.Value.(int64))
+		}
+	case reflect.String:
+		{
+			value = 0
+			data := attrValue.Value.(string)
+			for _, codeInfo := range exporterInfo.Codes {
+				if codeInfo.Code == data {
+					value = float64(codeInfo.Value)
+					break
+				}
+			}
 		}
 	}
 	return value
@@ -189,7 +206,8 @@ func getBeanMetrics(beanInfo *jjson.JsonObject, keySet map[string][]string, modu
 			metricName := renameMetricName(keySet, metrixPerfix+"_"+key, tagString)
 			if isShowAll || isInExportList(metricName) {
 				value := getAttributeValue(beanInfo.Attributes[key])
-				hadoopMetric := prometheus.NewDesc(metricName, metricName, nil, tags)
+				name := strings.ReplaceAll(beanInfo.Attributes["name"].Value.(string), "\"", "")
+				hadoopMetric := prometheus.NewDesc(metricName, fmt.Sprintf("bean path=>%s=>%s", name, key), nil, tags)
 				metric := prometheus.MustNewConstMetric(hadoopMetric, prometheus.CounterValue, value)
 				metrics = append(metrics, metric)
 			}
@@ -228,7 +246,8 @@ func handlerRegionServerRegions(beanInfo *jjson.JsonObject, keySet map[string][]
 				metricName := renameMetricName(keySet, metrixPerfix+"_"+key[metricIndex+8:], metriTag)
 				if isShowAll || isInExportList(metricName) {
 					value := getAttributeValue(beanInfo.Attributes[key])
-					hadoopMetric := prometheus.NewDesc(metricName, metricName, nil, tags)
+					name := strings.ReplaceAll(beanInfo.Attributes["name"].Value.(string), "\"", "")
+					hadoopMetric := prometheus.NewDesc(metricName, fmt.Sprintf("bean path=>%s=>%s", name, key), nil, tags)
 					metric := prometheus.MustNewConstMetric(hadoopMetric, prometheus.CounterValue, value)
 					metrics = append(metrics, metric)
 				}
