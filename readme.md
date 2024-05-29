@@ -7,4 +7,4 @@ if showall=1 , will show all metrics ,otherwise will show only some metrics defi
 codeMaps: define map for string to int ,such as namenode FSState have value "Operational",it will be mapped to 1.otherwise string value will be mapped to 0
 
 4.build
-go build -ldflags='-w -s' -o hadoop_exporter
+SET GOOS=linux SET GOARCH=amd64 go build -ldflags='-w -s' -o hadoop_exporter
